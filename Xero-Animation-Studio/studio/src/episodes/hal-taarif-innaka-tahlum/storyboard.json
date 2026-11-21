@@ -1,0 +1,2539 @@
+[
+  {
+    "index": 1,
+    "sceneId": "S01",
+    "act": 1,
+    "size": "wide",
+    "set": "RakanBedroom",
+    "look": "natural",
+    "startTime": "00:00.00",
+    "endTime": "00:07.93",
+    "durationSec": 7.93,
+    "startFrame": 0,
+    "endFrame": 238,
+    "keyFrame": 120,
+    "narrationSegment": "آخر شيء شافه راكان قبل ما ينام، كان الوقت على جواله: ثلاثه وسبع دقايق بعد نص الليل. حط الجوال على الطاوله، وطفى النور، وقال لنفسه: بكرا عندي دوام، لازم أنام.",
+    "sceneDescription": "راكان يرى الساعة 03:07 على هاتفه ثم يضع الهاتف ويطفئ المصباح ليحاول النوم.",
+    "cameraComposition": "Slow push-in toward nightstand phone & Rakan in bed (scale 1.0 -> 1.08)",
+    "characterAnimation": "Rakan lowers phone onto nightstand, reaches to switch lamp off, settles onto pillow, blinks slowly to sleep",
+    "backgroundEnvironment": "Midnight dark bedroom, glowing phone 03:07, lamp dimming off, cool moonlight through curtains",
+    "sfxEvents": [
+      {
+        "clip": "phone_chime",
+        "triggerFrame": 0,
+        "time": "00:00.00",
+        "gain": 0.28
+      },
+      {
+        "clip": "light_switch",
+        "triggerFrame": 148,
+        "time": "00:04.93",
+        "gain": 0.48
+      },
+      {
+        "clip": "room_tone",
+        "triggerFrame": 0,
+        "time": "00:00.00",
+        "gain": 0.14
+      }
+    ],
+    "vfxEvents": [
+      "Lamp glow fade-out",
+      "Moonlight rim light activation",
+      "Arabic Title Card: هل تعرف إنك تحلم؟"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 2,
+    "sceneId": "S02",
+    "act": 1,
+    "size": "medium",
+    "set": "RakanBedroom",
+    "look": "natural",
+    "startTime": "00:07.93",
+    "endTime": "00:13.67",
+    "durationSec": 5.73,
+    "startFrame": 238,
+    "endFrame": 410,
+    "keyFrame": 115,
+    "narrationSegment": "بس بعد لحظات، سمع صوت أحد يدق على باب غرفته.",
+    "sceneDescription": "سكون الليل ينكسر بصوت طرق مفاجئ على باب غرفة راكان.",
+    "cameraComposition": "Static tense framing toward left bedroom door with subtle tension creep",
+    "characterAnimation": "Rakan’s eyes snap open in bed; head turns sharply toward the door",
+    "backgroundEnvironment": "Dark moonlit bedroom, faint blue shadow across door frame, ripple wave on door panel",
+    "sfxEvents": [
+      {
+        "clip": "door_knock_single",
+        "triggerFrame": 334,
+        "time": "00:11.13",
+        "gain": 0.58
+      }
+    ],
+    "vfxEvents": [
+      "Acoustic knock ripple ring at door"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 3,
+    "sceneId": "S03",
+    "act": 1,
+    "size": "extreme close-up",
+    "set": "RakanBedroom",
+    "look": "natural",
+    "startTime": "00:13.67",
+    "endTime": "00:15.60",
+    "durationSec": 1.93,
+    "startFrame": 410,
+    "endFrame": 468,
+    "keyFrame": 38,
+    "narrationSegment": "دقه. دقتين. ثلاث.",
+    "sceneDescription": "لقطة قريبة جداً لمقبض الباب وهو يهتز مع كل طرقة.",
+    "cameraComposition": "Tight macro on door & brass handle with micro impact jolts on each knock",
+    "characterAnimation": "Door wood and brass latch vibrate violently on frames 4, 21, 41",
+    "backgroundEnvironment": "Close wood grain texture, amber-cyan rim flicker on each impact",
+    "sfxEvents": [
+      {
+        "clip": "door_knock_triple",
+        "triggerFrame": 412,
+        "time": "00:13.73",
+        "gain": 0.72
+      }
+    ],
+    "vfxEvents": [
+      "Three concentric knock shockwaves",
+      "Micro camera shake on knocks"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 4,
+    "sceneId": "S04",
+    "act": 1,
+    "size": "wide OTS",
+    "set": "BlueCorridor",
+    "look": "dream",
+    "startTime": "00:15.60",
+    "endTime": "00:24.00",
+    "durationSec": 8.4,
+    "startFrame": 468,
+    "endFrame": 720,
+    "keyFrame": 155,
+    "narrationSegment": "قام من سريره وفتح الباب، ولقى ممر طويل ما قد شافه في بيته. جدرانه لونها أزرق غامق، وفي نهايته ساعه كبيره عقاربها تدور بالعكس.",
+    "sceneDescription": "يفتح راكان الباب ليجد ممراً أزرق غامقاً مستحيلاً في نهايته ساعة تدور عقاربها للخلف.",
+    "cameraComposition": "Slow ominous pull-in through open doorway into deep 1-point corridor",
+    "characterAnimation": "Rakan pulls door open, steps into threshold, shoulders tense in disbelief",
+    "backgroundEnvironment": "Deep-navy endless corridor, flickering wall sconces, giant backward-spinning clock at vanishing point",
+    "sfxEvents": [
+      {
+        "clip": "door_creak_open",
+        "triggerFrame": 478,
+        "time": "00:15.93",
+        "gain": 0.52
+      },
+      {
+        "clip": "clock_tick_reverse",
+        "triggerFrame": 543,
+        "time": "00:18.10",
+        "gain": 0.34
+      }
+    ],
+    "vfxEvents": [
+      "Deep indigo dream grade",
+      "Reverse rotating clock hands",
+      "Floating corridor dust"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 5,
+    "sceneId": "S05",
+    "act": 1,
+    "size": "medium",
+    "set": "BlueCorridor",
+    "look": "dream",
+    "startTime": "00:24.00",
+    "endTime": "00:30.33",
+    "durationSec": 6.33,
+    "startFrame": 720,
+    "endFrame": 910,
+    "keyFrame": 95,
+    "narrationSegment": "التفت عشان يرجع لغرفته... لكن الباب اختفى. وقبل ما يستوعب، سمع صوت يهمس من آخر الممر:",
+    "sceneDescription": "يلتفت راكان للخلف فيجد أن باب غرفته قد تلاشى تماماً وحل مكانه جدار أزرق صلب.",
+    "cameraComposition": "Whip pan to rear wall where doorway vanishes, then subtle pull back",
+    "characterAnimation": "Rakan spins around (yaw 1 -> -1), steps back startled, hands raised defensively",
+    "backgroundEnvironment": "Solid deep-navy paneled wall where door used to be, eerie acoustic ripple waves from afar",
+    "sfxEvents": [
+      {
+        "clip": "void_vanish",
+        "triggerFrame": 765,
+        "time": "00:25.50",
+        "gain": 0.45
+      },
+      {
+        "clip": "whisper_riser",
+        "triggerFrame": 840,
+        "time": "00:28.00",
+        "gain": 0.32
+      }
+    ],
+    "vfxEvents": [
+      "Door outline dissolving particles",
+      "Cyan acoustic whisper waves"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 6,
+    "sceneId": "S06",
+    "act": 1,
+    "size": "extreme close-up",
+    "set": "BlueCorridor",
+    "look": "dream",
+    "startTime": "00:30.33",
+    "endTime": "00:33.17",
+    "durationSec": 2.83,
+    "startFrame": 910,
+    "endFrame": 995,
+    "keyFrame": 42,
+    "narrationSegment": "«راكان... أنت مو صاحي.»",
+    "sceneDescription": "لقطة مقربة لعيني راكان المذعورتين وهمس غامض يتردد في الممر.",
+    "cameraComposition": "Tight close-up pushing into Rakan’s wide-open eyes",
+    "characterAnimation": "Pupils contract, subtle shiver, head freezes as whisper echoes",
+    "backgroundEnvironment": "Dark navy void with icy cyan rim light and floating Arabic whisper typography",
+    "sfxEvents": [
+      {
+        "clip": "whisper_echo",
+        "triggerFrame": 918,
+        "time": "00:30.60",
+        "gain": 0.48
+      },
+      {
+        "clip": "drone_hit",
+        "triggerFrame": 914,
+        "time": "00:30.47",
+        "gain": 0.35
+      }
+    ],
+    "vfxEvents": [
+      "ArabicWhisper: راكان... أنت مو صاحي",
+      "Cyan eye rim highlight"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 7,
+    "sceneId": "S07",
+    "act": 1,
+    "size": "tracking wide",
+    "set": "BlueCorridor",
+    "look": "dream",
+    "startTime": "00:33.17",
+    "endTime": "00:37.60",
+    "durationSec": 4.43,
+    "startFrame": 995,
+    "endFrame": 1128,
+    "keyFrame": 66,
+    "narrationSegment": "ركض. وكل ما ركض، الممر صار أطول. وصل عند الساعه، ولقى تحتها مرايه.",
+    "sceneDescription": "يركض راكان بأقصى سرعته بينما يتمدد الممر الأزرق أمامه ليصل إلى الساعة وتحتها مرآة.",
+    "cameraComposition": "Dynamic dolly-zoom tracking behind/beside sprinting Rakan as corridor stretches",
+    "characterAnimation": "Full sprint cycle (`walkPose` accelerated), arms pumping, hoodie strings whipping back",
+    "backgroundEnvironment": "Corridor perspective elongating dynamically (`stretch 0 -> 1`), sconces streaking past",
+    "sfxEvents": [
+      {
+        "clip": "footstep_corridor",
+        "triggerFrame": 1001,
+        "time": "00:33.37",
+        "gain": 0.45
+      },
+      {
+        "clip": "footstep_corridor",
+        "triggerFrame": 1019,
+        "time": "00:33.97",
+        "gain": 0.48
+      },
+      {
+        "clip": "footstep_corridor",
+        "triggerFrame": 1037,
+        "time": "00:34.57",
+        "gain": 0.5
+      },
+      {
+        "clip": "footstep_corridor",
+        "triggerFrame": 1055,
+        "time": "00:35.17",
+        "gain": 0.52
+      },
+      {
+        "clip": "riser_tension",
+        "triggerFrame": 1010,
+        "time": "00:33.67",
+        "gain": 0.32
+      }
+    ],
+    "vfxEvents": [
+      "Perspective vertigo stretch",
+      "Speed streak lines",
+      "Ornamental mirror reveal"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 8,
+    "sceneId": "S08",
+    "act": 1,
+    "size": "close-up",
+    "set": "BlueCorridor",
+    "look": "dream",
+    "startTime": "00:37.60",
+    "endTime": "00:42.60",
+    "durationSec": 5,
+    "startFrame": 1128,
+    "endFrame": 1278,
+    "keyFrame": 78,
+    "narrationSegment": "طالع فيها، وشاف نفسه نايم على السرير. فتح فمه يصرخ، لكنه ما قدر يطلع أي صوت.",
+    "sceneDescription": "ينظر راكان في المرآة ليرى نفسه نائماً في سريره، ويحاول الصراخ بلا صوت.",
+    "cameraComposition": "Push-in into the ornate mirror frame below the giant clock",
+    "characterAnimation": "Rakan grabs mirror frame, mouth opens wide in silent scream, shoulders shaking",
+    "backgroundEnvironment": "Inside mirror: Rakan peacefully asleep in his bed; outside mirror: trapped Rakan",
+    "sfxEvents": [
+      {
+        "clip": "heartbeat_fast",
+        "triggerFrame": 1138,
+        "time": "00:37.93",
+        "gain": 0.55
+      },
+      {
+        "clip": "silent_scream_sub",
+        "triggerFrame": 1196,
+        "time": "00:39.87",
+        "gain": 0.48
+      }
+    ],
+    "vfxEvents": [
+      "Collapsing mute sound rings",
+      "Mirror glass shimmer",
+      "Red panic pulse"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 9,
+    "sceneId": "S09",
+    "act": 1,
+    "size": "medium",
+    "set": "RakanBedroom",
+    "look": "natural",
+    "startTime": "00:42.60",
+    "endTime": "00:51.07",
+    "durationSec": 8.47,
+    "startFrame": 1278,
+    "endFrame": 1532,
+    "keyFrame": 60,
+    "narrationSegment": "ثم صحى فجأه، وجلس يتنفس بسرعه. غرفته طبيعيه. الجوال على الطاوله. والنور مطفي.",
+    "sceneDescription": "يستيقظ راكان فجأة وهو يلهث في سريره؛ غرفته تبدو طبيعية تماماً.",
+    "cameraComposition": "Snap cut to medium bedside view, gentle breathing settle",
+    "characterAnimation": "Rakan jolts upright in bed (`knees=1`), chest heaving rapidly, looks left and right",
+    "backgroundEnvironment": "Normal moonlit bedroom, phone resting on nightstand, lamp dark",
+    "sfxEvents": [
+      {
+        "clip": "gasp_wake",
+        "triggerFrame": 1280,
+        "time": "00:42.67",
+        "gain": 0.62
+      },
+      {
+        "clip": "room_tone",
+        "triggerFrame": 1293,
+        "time": "00:43.10",
+        "gain": 0.16
+      }
+    ],
+    "vfxEvents": [
+      "Flash transition wake-up cut",
+      "Subtle breathless shake"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 10,
+    "sceneId": "S10",
+    "act": 1,
+    "size": "insert",
+    "set": "RakanBedroom",
+    "look": "natural",
+    "startTime": "00:51.07",
+    "endTime": "00:55.27",
+    "durationSec": 4.2,
+    "startFrame": 1532,
+    "endFrame": 1658,
+    "keyFrame": 65,
+    "narrationSegment": "مد يده للجوال، وشاف الساعه: ثلاثه وسبع دقايق. نفس الوقت بالضبط. ابتسم وقال: الحمد لله، مجرد حلم.",
+    "sceneDescription": "يمسك راكان جواله ليجد الوقت لا يزال 03:07 بالضبط، فيبتسم بارتياح.",
+    "cameraComposition": "Macro handheld phone insert shifting to Rakan’s relieved smile",
+    "characterAnimation": "Hand reaches into frame, lifts phone displaying 03:07; Rakan exhales happily",
+    "backgroundEnvironment": "Cool blue smartphone screen illuminating face in dark room",
+    "sfxEvents": [
+      {
+        "clip": "phone_pickup",
+        "triggerFrame": 1538,
+        "time": "00:51.27",
+        "gain": 0.36
+      },
+      {
+        "clip": "sigh_relief",
+        "triggerFrame": 1606,
+        "time": "00:53.53",
+        "gain": 0.35
+      }
+    ],
+    "vfxEvents": [
+      "Phone screen 03:07 readout glow"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 11,
+    "sceneId": "S11",
+    "act": 1,
+    "size": "macro insert",
+    "set": "RakanBedroom",
+    "look": "natural",
+    "startTime": "00:55.27",
+    "endTime": "01:03.40",
+    "durationSec": 8.13,
+    "startFrame": 1658,
+    "endFrame": 1902,
+    "keyFrame": 105,
+    "narrationSegment": "لكن لما طالع يده... كان فيها ست أصابع. هنا، للمره الأولى، خطر بباله سؤال غريب: «طيب... وش يضمن لي إني صحيت فعلًا؟»",
+    "sceneDescription": "يكتشف راكان وجود ست أصابع في يده فيتساءل: ما الذي يضمن أنني استيقظت فعلاً؟",
+    "cameraComposition": "Slow dramatic zoom onto open 6-fingered hand, then snap cut to Rakan’s stunned eyes",
+    "characterAnimation": "Hand rotates palm-up in moonlight, 6 distinct fingers spread slowly; eyes widen in shock",
+    "backgroundEnvironment": "Moonlit palm contour, glowing cyan-amber reality-check aura",
+    "sfxEvents": [
+      {
+        "clip": "reality_chime",
+        "triggerFrame": 1680,
+        "time": "00:56.00",
+        "gain": 0.56
+      },
+      {
+        "clip": "drone_hit",
+        "triggerFrame": 1778,
+        "time": "00:59.27",
+        "gain": 0.38
+      }
+    ],
+    "vfxEvents": [
+      "6-finger count markers (1..6)",
+      "ArabicWhisper: وش يضمن لي إني صحيت فعلًا؟"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 12,
+    "sceneId": "S12",
+    "act": 2,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "01:03.40",
+    "endTime": "01:11.50",
+    "durationSec": 8.1,
+    "startFrame": 1902,
+    "endFrame": 2145,
+    "keyFrame": 120,
+    "narrationSegment": "خلنا نرجع شوي، ونفهم وش صار داخل راس راكان. لأن اللي نعتبره حلم بسيط، هو في الحقيقه واحد من أغرب الأشياء اللي يسويها عقل الإنسان.",
+    "sceneDescription": "دخول علمي إلى داخل دماغ راكان لاكتشاف آلية عمل الأحلام.",
+    "cameraComposition": "Zoom smoothly from Rakan’s head silhouette into crisp neural blueprint grid",
+    "characterAnimation": "Sleeping Rakan profile dissolves into illuminated lateral BrainDiagram",
+    "backgroundEnvironment": "Dark blueprint grid with crisp cyan registration marks and neural sparks",
+    "sfxEvents": [
+      {
+        "clip": "brain_pulse",
+        "triggerFrame": 1914,
+        "time": "01:03.80",
+        "gain": 0.42
+      }
+    ],
+    "vfxEvents": [
+      "Blueprint grid reveal",
+      "Brain neural spark ignition"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 13,
+    "sceneId": "S13",
+    "act": 2,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "01:11.50",
+    "endTime": "01:20.27",
+    "durationSec": 8.77,
+    "startFrame": 2145,
+    "endFrame": 2408,
+    "keyFrame": 140,
+    "narrationSegment": "كل ليله، وإنت نايم، دماغك ما يوقف. بالعكس، يمر بمراحل مختلفه من النوم، وبعضها يكون فيها نشاط قريب من اليقظه في مناطق معينه.",
+    "sceneDescription": "مخطط مراحل النوم وموجات الدماغ التي تقترب من نشاط اليقظة.",
+    "cameraComposition": "Balanced schematic framing with animated Hypnogram + live EEG oscillation",
+    "characterAnimation": "Sleeper icon resting below ascending/descending sleep stage graph",
+    "backgroundEnvironment": "HypnogramChart drawing across N1, N2, N3, REM with high-frequency EEGWave",
+    "sfxEvents": [
+      {
+        "clip": "eeg_sweep",
+        "triggerFrame": 2175,
+        "time": "01:12.50",
+        "gain": 0.32
+      }
+    ],
+    "vfxEvents": [
+      "Animated Hypnogram line draw",
+      "Live EEG oscillation waveform",
+      "ArabicCallout: مراحل النوم"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 14,
+    "sceneId": "S14",
+    "act": 2,
+    "size": "close-up schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "01:20.27",
+    "endTime": "01:28.17",
+    "durationSec": 7.9,
+    "startFrame": 2408,
+    "endFrame": 2645,
+    "keyFrame": 120,
+    "narrationSegment": "وخلال هالمراحل، ممكن تشوف قصص وأماكن وأشخاص، من غير ما تكون عيونك مفتوحه. والمفاجأه؟ مو شرط تتذكر أي شيء منها.",
+    "sceneDescription": "عيون مغلقة تتحرك خلف الجفون بينما تعرض مشاهد وأشخاصاً كالسينما.",
+    "cameraComposition": "Close-up on closed sleeping eyes with luminous dream silhouettes projecting above",
+    "characterAnimation": "Rapid eye movement bulges subtly beneath closed eyelids (`REM jitter`)",
+    "backgroundEnvironment": "Projector-like neural beams casting city, faces, and staircase icons above",
+    "sfxEvents": [
+      {
+        "clip": "rem_flutter",
+        "triggerFrame": 2428,
+        "time": "01:20.93",
+        "gain": 0.3
+      },
+      {
+        "clip": "memory_spark",
+        "triggerFrame": 2558,
+        "time": "01:25.27",
+        "gain": 0.35
+      }
+    ],
+    "vfxEvents": [
+      "Dream projector silhouette stream",
+      "Closed-eye REM motion"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 15,
+    "sceneId": "S15",
+    "act": 2,
+    "size": "medium",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "01:28.17",
+    "endTime": "01:39.70",
+    "durationSec": 11.53,
+    "startFrame": 2645,
+    "endFrame": 2991,
+    "keyFrame": 170,
+    "narrationSegment": "قد تكون من الناس اللي يقولون: «أنا ما أحلم أبد». لكن نسيان الأحلام ما يعني إنك ما حلمت. كثير من الأحلام تختفي من ذاكرتنا بعد ما نصحى بدقايق، خصوصًا لو ما انتبهنا لها وقت الاستيقاظ.",
+    "sceneDescription": "شخص يستيقظ قائلاً «أنا ما أحلم أبد» بينما تتبخر ذكريات الحلم خلفه خلال دقائق.",
+    "cameraComposition": "Medium split composition: foreground character vs evaporating dream sketches",
+    "characterAnimation": "Character shrugs casually with neutral smile; dream cards dissolve behind them",
+    "backgroundEnvironment": "Fading dream blueprints crumbling into ascending dust motes with timer counting 00:01 -> 03:00",
+    "sfxEvents": [
+      {
+        "clip": "mist_dissolve",
+        "triggerFrame": 2755,
+        "time": "01:31.83",
+        "gain": 0.34
+      }
+    ],
+    "vfxEvents": [
+      "Evaporating dream sketch particles",
+      "Timer dial fading memories"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 16,
+    "sceneId": "S16",
+    "act": 2,
+    "size": "wide",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "01:39.70",
+    "endTime": "01:46.97",
+    "durationSec": 7.27,
+    "startFrame": 2991,
+    "endFrame": 3209,
+    "keyFrame": 110,
+    "narrationSegment": "تخيل إنك تقضي كل ليله في عالم كامل، وبمجرد ما تفتح عيونك، تنمسح أغلب تفاصيله.",
+    "sceneDescription": "عالم حلم كامل مضيء يطفو فوق السرير ثم ينمسح فور فتح العينين.",
+    "cameraComposition": "Slow pull-back from glowing miniature dream city hovering above sleeper",
+    "characterAnimation": "Sleeper’s eyes snap open; miniature luminous world scatters into light specks",
+    "backgroundEnvironment": "Floating spherical dream world dissolving on wake-up blink",
+    "sfxEvents": [
+      {
+        "clip": "sparkle_scatter",
+        "triggerFrame": 3096,
+        "time": "01:43.20",
+        "gain": 0.38
+      }
+    ],
+    "vfxEvents": [
+      "Floating luminous globe city",
+      "Wake-up particle dispersion"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 17,
+    "sceneId": "S17",
+    "act": 2,
+    "size": "wide",
+    "set": "BlueCorridor",
+    "look": "dream",
+    "startTime": "01:46.97",
+    "endTime": "01:52.27",
+    "durationSec": 5.3,
+    "startFrame": 3209,
+    "endFrame": 3368,
+    "keyFrame": 80,
+    "narrationSegment": "هذا كان أول لغز عند راكان: كيف حس إن الممر حقيقي، مع إنه ما كان موجود؟ وكيف نسي إنه كان نايم من الأساس؟",
+    "sceneDescription": "راكان يقف وسط الممر الأزرق بينما تتكشف خطوطه الهندسية كمحاكاة دماغية.",
+    "cameraComposition": "Side-to-center pan across Rakan standing inside wireframe-overlay corridor",
+    "characterAnimation": "Rakan touches the blue wall curiously; wireframe grid ripples from his hand",
+    "backgroundEnvironment": "BlueCorridor overlaid with subtle cyan architectural blueprint wireframe",
+    "sfxEvents": [
+      {
+        "clip": "brain_pulse",
+        "triggerFrame": 3227,
+        "time": "01:47.57",
+        "gain": 0.34
+      }
+    ],
+    "vfxEvents": [
+      "Wireframe corridor grid reveal",
+      "ArabicCallout: اللغز الأول"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 18,
+    "sceneId": "S18",
+    "act": 2,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "01:52.27",
+    "endTime": "02:04.10",
+    "durationSec": 11.83,
+    "startFrame": 3368,
+    "endFrame": 3723,
+    "keyFrame": 180,
+    "narrationSegment": "الجواب مو إن الدماغ يطفى وقت النوم. الجواب إن الدماغ يقدر يبني تجربه مقنعه جدًا، حتى وهو منفصل نسبيًا عن اللي يصير حولك.",
+    "sceneDescription": "الدماغ لا ينطفئ بل يبني تجربة محاكاة مقنعة بمعزل نسبي عن المحيط الخارجي.",
+    "cameraComposition": "Centered schematic view showing external senses dimmed while internal renderer glows",
+    "characterAnimation": "Brain core fires procedural wall & light geometry inside a protective bubble",
+    "backgroundEnvironment": "Sensory cables dimmed on left/right; vivid internal world constructed in center",
+    "sfxEvents": [
+      {
+        "clip": "synth_build",
+        "triggerFrame": 3408,
+        "time": "01:53.60",
+        "gain": 0.36
+      }
+    ],
+    "vfxEvents": [
+      "Procedural architecture assembly lines",
+      "External input isolation ring"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 19,
+    "sceneId": "S19",
+    "act": 2,
+    "size": "triptych montage",
+    "set": "DreamScience",
+    "look": "dream",
+    "startTime": "02:04.10",
+    "endTime": "02:13.83",
+    "durationSec": 9.73,
+    "startFrame": 3723,
+    "endFrame": 4015,
+    "keyFrame": 150,
+    "narrationSegment": "وفي بعض الأحلام، بدل ما تكتشف التناقض، تكمل القصه عادي. تطير فوق الشارع، وتقابل شخص توفى من سنين، وتدخل بيتك وتلقى فيه غرفه جديده ما عمرها كانت موجوده... ومع ذلك ما تستغرب.",
+    "sceneDescription": "ثلاثة مشاهد مستحيلة يتقبلها الحالم ببساطة: الطيران فوق الشارع، لقاء شخص راحل، وغرفة جديدة في البيت.",
+    "cameraComposition": "Smooth horizontal pan across three surreal dream panels",
+    "characterAnimation": "Rakan floats calmly above street, waves warmly to faded silhouette, steps through extra doorway",
+    "backgroundEnvironment": "Three illuminated dream vignettes framed cleanly on deep indigo field",
+    "sfxEvents": [
+      {
+        "clip": "dream_whoosh",
+        "triggerFrame": 3743,
+        "time": "02:04.77",
+        "gain": 0.28
+      },
+      {
+        "clip": "dream_whoosh",
+        "triggerFrame": 3848,
+        "time": "02:08.27",
+        "gain": 0.28
+      },
+      {
+        "clip": "door_creak_open",
+        "triggerFrame": 3933,
+        "time": "02:11.10",
+        "gain": 0.28
+      }
+    ],
+    "vfxEvents": [
+      "Three-panel dream triptych",
+      "Translucent memory silhouette"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 20,
+    "sceneId": "S20",
+    "act": 2,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "02:13.83",
+    "endTime": "02:22.77",
+    "durationSec": 8.93,
+    "startFrame": 4015,
+    "endFrame": 4283,
+    "keyFrame": 135,
+    "narrationSegment": "ليش؟ لأن نشاط المناطق المرتبطه بالتفكير النقدي ومراقبه الذات يختلف أثناء النوم، خصوصًا في أحلام مرحله حركه العين السريعه، أو REM.",
+    "sceneDescription": "انخفاض نشاط قشرة التفكير النقدي أثناء مرحلة REM مما يفسر تقبل المستحيل.",
+    "cameraComposition": "Push-in toward Prefrontal Cortex zone on BrainDiagram",
+    "characterAnimation": "Prefrontal Cortex dims (`pfcActive=0.18`) while Visual/Limbic REM flares (`visualActive=1.0`)",
+    "backgroundEnvironment": "Blueprint brain with Arabic & REM labels and live eye-movement wave",
+    "sfxEvents": [
+      {
+        "clip": "eeg_sweep",
+        "triggerFrame": 4033,
+        "time": "02:14.43",
+        "gain": 0.34
+      }
+    ],
+    "vfxEvents": [
+      "Prefrontal dim indicator",
+      "ArabicCallout: حركة العين السريعة · REM"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 21,
+    "sceneId": "S21",
+    "act": 2,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "02:22.77",
+    "endTime": "02:31.40",
+    "durationSec": 8.63,
+    "startFrame": 4283,
+    "endFrame": 4542,
+    "keyFrame": 130,
+    "narrationSegment": "التفسير العلمي أعقد من مجرد زر منطفئ، لكنه يساعدنا نفهم ليش أشياء مستحيله تبدو طبيعيه داخل الحلم. خلنا نرجع لراكان.",
+    "sceneDescription": "لوحة علمية توضح أن الدماغ أعقد من زر تشغيل وإطفاء، ثم العودة لراكان.",
+    "cameraComposition": "Pan from multi-dial neural console back toward moonlit bedroom outline",
+    "characterAnimation": "Oscillating dials balance smoothly instead of snapping ON/OFF",
+    "backgroundEnvironment": "Multiple synchronized neural gauges transitioning back to dark bedroom blue",
+    "sfxEvents": [
+      {
+        "clip": "reality_chime",
+        "triggerFrame": 4478,
+        "time": "02:29.27",
+        "gain": 0.36
+      }
+    ],
+    "vfxEvents": [
+      "Crossed-out simple ON/OFF switch vs complex dials"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 22,
+    "sceneId": "S22",
+    "act": 3,
+    "size": "medium",
+    "set": "RakanBedroom",
+    "look": "natural",
+    "startTime": "02:31.40",
+    "endTime": "02:36.87",
+    "durationSec": 5.47,
+    "startFrame": 4542,
+    "endFrame": 4706,
+    "keyFrame": 80,
+    "narrationSegment": "وهو يطالع أصابعه السته، سمع صوت الباب مره ثانيه. لكن هالمره، بدل ما يركض، سأل نفسه:",
+    "sceneDescription": "راكان ينظر لأصابعه الستة فيسمع طرق الباب مجدداً لكنه يواجهه هذه المرة بثبات.",
+    "cameraComposition": "Medium shot in bedroom; Rakan lowers hand slightly and turns steadily toward door",
+    "characterAnimation": "Rakan examines 6-fingered hand (`handL=\"six\"`), hears knock at f+50, squares his shoulders",
+    "backgroundEnvironment": "Moonlit bedroom, door echoing softly with amber ripple",
+    "sfxEvents": [
+      {
+        "clip": "door_knock_single",
+        "triggerFrame": 4594,
+        "time": "02:33.13",
+        "gain": 0.56
+      }
+    ],
+    "vfxEvents": [
+      "Knock acoustic wave",
+      "Calm resolved lighting shift"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 23,
+    "sceneId": "S23",
+    "act": 3,
+    "size": "medium",
+    "set": "RakanBedroom",
+    "look": "lucid",
+    "startTime": "02:36.87",
+    "endTime": "02:41.57",
+    "durationSec": 4.7,
+    "startFrame": 4706,
+    "endFrame": 4847,
+    "keyFrame": 70,
+    "narrationSegment": "«إذا كنت أحلم... أقدر أغيّر اللي بيصير؟» حاول يفتح الباب بإصبعه، من بعيد، بدون ما يلمسه.",
+    "sceneDescription": "يرفع راكان إصبعه نحو الباب من بعيد محاولاً فتحه بالإرادة وحدها.",
+    "cameraComposition": "Slight low-angle medium shot pushing toward Rakan’s extended pointing hand",
+    "characterAnimation": "Rakan raises arm (`handR=\"point\"`) toward distant door; cyan lucid spark gathers at fingertip",
+    "backgroundEnvironment": "Bedroom shadows reacting to subtle cyan lucid beam stretching toward door handle",
+    "sfxEvents": [
+      {
+        "clip": "telekinesis_hum",
+        "triggerFrame": 4751,
+        "time": "02:38.37",
+        "gain": 0.42
+      }
+    ],
+    "vfxEvents": [
+      "Fingertip lucid energy beam",
+      "FocusRings at hand"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 24,
+    "sceneId": "S24",
+    "act": 3,
+    "size": "close-up",
+    "set": "RakanBedroom",
+    "look": "lucid",
+    "startTime": "02:41.57",
+    "endTime": "02:44.70",
+    "durationSec": 3.13,
+    "startFrame": 4847,
+    "endFrame": 4941,
+    "keyFrame": 52,
+    "narrationSegment": "تحرك المقبض. وانفتح الباب لحاله.",
+    "sceneDescription": "يدور مقبض الباب من تلقاء نفسه وينفتح الباب ليكشف ضوءاً ذهبياً دافئاً.",
+    "cameraComposition": "Tight close-up on brass handle turning, then door swinging wide",
+    "characterAnimation": "Handle rotates smoothly by 35 degrees; door swings open revealing warm school light",
+    "backgroundEnvironment": "Dark bedroom doorway flooding with warm afternoon amber rays",
+    "sfxEvents": [
+      {
+        "clip": "telekinesis_creak",
+        "triggerFrame": 4853,
+        "time": "02:41.77",
+        "gain": 0.55
+      },
+      {
+        "clip": "door_creak_open",
+        "triggerFrame": 4885,
+        "time": "02:42.83",
+        "gain": 0.45
+      }
+    ],
+    "vfxEvents": [
+      "Cyan glow around door handle",
+      "Warm golden doorway light spill"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 25,
+    "sceneId": "S25",
+    "act": 3,
+    "size": "wide",
+    "set": "ElementarySchool",
+    "look": "memory",
+    "startTime": "02:44.70",
+    "endTime": "02:52.60",
+    "durationSec": 7.9,
+    "startFrame": 4941,
+    "endFrame": 5178,
+    "keyFrame": 120,
+    "narrationSegment": "وراه كانت مدرسته الابتدائيه. نفس الممرات. نفس ريحه الكتب. نفس صوت الطلاب في الفسحه.",
+    "sceneDescription": "يدخل راكان ممر مدرسته الابتدائية المغمور بالضوء الذهبي وذكريات الكتب والفسحة.",
+    "cameraComposition": "Wide 1-point perspective tracking forward down the nostalgic school hallway",
+    "characterAnimation": "Rakan walks gently forward (`walkPose`), gazing upward at lockers and sunlit windows",
+    "backgroundEnvironment": "ElementarySchool hallway, warm sunbeams, floating golden chalk dust, distant recess silhouettes",
+    "sfxEvents": [
+      {
+        "clip": "school_bell_distant",
+        "triggerFrame": 4953,
+        "time": "02:45.10",
+        "gain": 0.32
+      },
+      {
+        "clip": "footstep_school",
+        "triggerFrame": 4986,
+        "time": "02:46.20",
+        "gain": 0.28
+      },
+      {
+        "clip": "footstep_school",
+        "triggerFrame": 5026,
+        "time": "02:47.53",
+        "gain": 0.28
+      }
+    ],
+    "vfxEvents": [
+      "Warm amber memory grade",
+      "Floating sunlit dust motes"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 26,
+    "sceneId": "S26",
+    "act": 3,
+    "size": "wide",
+    "set": "Stairwell",
+    "look": "memory",
+    "startTime": "02:52.60",
+    "endTime": "02:59.53",
+    "durationSec": 6.93,
+    "startFrame": 5178,
+    "endFrame": 5386,
+    "keyFrame": 115,
+    "narrationSegment": "شاف ولد صغير جالس على الدرج، ماسك دفتر رسم. اقترب منه... واكتشف إنه نفسه، يوم كان عمره تسع سنوات.",
+    "sceneDescription": "يرى راكان ولداً صغيراً جالساً على الدرج يحمل دفتر رسم، وعندما يقترب يكتشف أنه هو في التاسعة.",
+    "cameraComposition": "Side-on stairwell shot pushing closer as adult Rakan climbs up toward the boy",
+    "characterAnimation": "Young Rakan sits sketching on step 3; adult Rakan climbs gently and pauses in recognition",
+    "backgroundEnvironment": "Warm dusk-lit Stairwell set with arched window, lantern glow, and golden dust",
+    "sfxEvents": [
+      {
+        "clip": "footstep_school",
+        "triggerFrame": 5208,
+        "time": "02:53.60",
+        "gain": 0.25
+      },
+      {
+        "clip": "footstep_school",
+        "triggerFrame": 5238,
+        "time": "02:54.60",
+        "gain": 0.25
+      },
+      {
+        "clip": "reality_chime",
+        "triggerFrame": 5318,
+        "time": "02:57.27",
+        "gain": 0.35
+      }
+    ],
+    "vfxEvents": [
+      "Recognition halo glow around Young Rakan"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 27,
+    "sceneId": "S27",
+    "act": 3,
+    "size": "two-shot close-up",
+    "set": "Stairwell",
+    "look": "memory",
+    "startTime": "02:59.53",
+    "endTime": "03:04.93",
+    "durationSec": 5.4,
+    "startFrame": 5386,
+    "endFrame": 5548,
+    "keyFrame": 80,
+    "narrationSegment": "الولد رفع راسه وسأله: «تتذكر وش كنت تبي تصير لما تكبر؟» راكان ما عرف وش يرد.",
+    "sceneDescription": "يرفع الطفل رأسه ويسأل راكان عن حلم طفولته، فيقف راكان عاجزاً عن الإجابة.",
+    "cameraComposition": "Intimate two-shot on stairwell steps between Young Rakan and adult Rakan",
+    "characterAnimation": "Young Rakan tilts head up curiously holding sketchbook; adult Rakan looks down speechless (`worried`)",
+    "backgroundEnvironment": "Warm lantern light illuminating pencil/crayon sketch of stars and rockets",
+    "sfxEvents": [
+      {
+        "clip": "paper_rustle",
+        "triggerFrame": 5396,
+        "time": "02:59.87",
+        "gain": 0.34
+      }
+    ],
+    "vfxEvents": [
+      "Sketchbook star drawing reveal",
+      "ArabicWhisper: تتذكر وش كنت تبي تصير؟"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 28,
+    "sceneId": "S28",
+    "act": 3,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "03:04.93",
+    "endTime": "03:14.07",
+    "durationSec": 9.13,
+    "startFrame": 5548,
+    "endFrame": 5822,
+    "keyFrame": 140,
+    "narrationSegment": "لأن عقله جاب له ذكرى كان يحسب إنه نساها من زمان. هنا يجي لغز ثاني: ليش أحلامنا تجمع أشياء من يومنا، مع ذكريات قديمه، وتطلع منها قصه جديده؟",
+    "sceneDescription": "خيطان مضيئة من الذكريات القديمة واليومية تجتمع في لغز الذاكرة الثاني.",
+    "cameraComposition": "Smooth pan linking childhood sketchbook motif to neural memory timeline",
+    "characterAnimation": "Glowing thread pulls from sketchbook into dual-timeline memory nodes",
+    "backgroundEnvironment": "Blueprint grid blending warm amber childhood cards with cool cyan daily icons",
+    "sfxEvents": [
+      {
+        "clip": "brain_pulse",
+        "triggerFrame": 5618,
+        "time": "03:07.27",
+        "gain": 0.34
+      }
+    ],
+    "vfxEvents": [
+      "Connecting memory threads",
+      "ArabicCallout: اللغز الثاني · الذاكرة"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 29,
+    "sceneId": "S29",
+    "act": 3,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "03:14.07",
+    "endTime": "03:24.50",
+    "durationSec": 10.43,
+    "startFrame": 5822,
+    "endFrame": 6135,
+    "keyFrame": 160,
+    "narrationSegment": "الباحثين يدرسون من سنين علاقه النوم بالذاكره والتعلم. ونعرف إن النوم مهم لعمليات تثبيت بعض الذكريات وتنظيمها. لكن ما نقدر نقول إن كل حلم له معنى مخفي، أو إن كل مشهد هو رساله من العقل الباطن.",
+    "sceneDescription": "تنظيم الذكريات وتثبيتها أثناء النوم مع توضيح علمي بأن ليس لكل حلم رسالة مخفية.",
+    "cameraComposition": "Balanced schematic showing memory-file sorting in Hippocampus -> Cortex",
+    "characterAnimation": "Memory cards gently dock onto organized neural shelves",
+    "backgroundEnvironment": "Clean scientific diagram with subtle check/cross nuances on dream-meaning myths",
+    "sfxEvents": [
+      {
+        "clip": "memory_spark",
+        "triggerFrame": 5867,
+        "time": "03:15.57",
+        "gain": 0.28
+      },
+      {
+        "clip": "memory_spark",
+        "triggerFrame": 5977,
+        "time": "03:19.23",
+        "gain": 0.28
+      }
+    ],
+    "vfxEvents": [
+      "Animated memory consolidation arcs"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 30,
+    "sceneId": "S30",
+    "act": 3,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "03:24.50",
+    "endTime": "03:35.20",
+    "durationSec": 10.7,
+    "startFrame": 6135,
+    "endFrame": 6456,
+    "keyFrame": 160,
+    "narrationSegment": "أحيانًا تحلم بشيء لعبته طول اليوم. وأحيانًا بوجه مر عليك قبل سنوات. وأحيانًا دماغك يخلط بين الاثنين بطريقة ما لها أي منطق.",
+    "sceneDescription": "الدماغ يمزج أحداث اليوم مع وجوه قديمة بطريقة غير منطقية.",
+    "cameraComposition": "Playful orbital schematic merging today’s game controller with vintage portrait frame",
+    "characterAnimation": "Icons orbit and collide in center forming a surreal dream hybrid card",
+    "backgroundEnvironment": "Blueprint dark indigo with luminous orange and cyan floating memory tiles",
+    "sfxEvents": [
+      {
+        "clip": "pop",
+        "triggerFrame": 6170,
+        "time": "03:25.67",
+        "gain": 0.3
+      },
+      {
+        "clip": "pop",
+        "triggerFrame": 6245,
+        "time": "03:28.17",
+        "gain": 0.3
+      },
+      {
+        "clip": "paste_pop",
+        "triggerFrame": 6345,
+        "time": "03:31.50",
+        "gain": 0.34
+      }
+    ],
+    "vfxEvents": [
+      "Orbiting collage merge"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 31,
+    "sceneId": "S31",
+    "act": 3,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "03:35.20",
+    "endTime": "03:46.27",
+    "durationSec": 11.07,
+    "startFrame": 6456,
+    "endFrame": 6788,
+    "keyFrame": 165,
+    "narrationSegment": "في تجربه معروفه، ناس لعبوا تتريس وقت طويل، وبعضهم شاف صور قطع اللعبه وهي تنزل لما بدأ يغفو. حتى بعض المشاركين اللي عندهم مشاكل شديده في التذكر مرّوا بتجارب شبيهه.",
+    "sceneDescription": "تجربة تأثير تتريس الشهيرة: قطع اللعبة تتساقط أمام العينين عند الغفو حتى لدى مرضى فقدان الذاكرة.",
+    "cameraComposition": "Vertical schematic framing falling colorful Tetris pieces across closed-eye silhouette",
+    "characterAnimation": "TetrisCascade blocks fall steadily past sleeping profile",
+    "backgroundEnvironment": "Deep blueprint backdrop with crisp geometric Tetris blocks glowing softly",
+    "sfxEvents": [
+      {
+        "clip": "tetris_bleep",
+        "triggerFrame": 6481,
+        "time": "03:36.03",
+        "gain": 0.28
+      },
+      {
+        "clip": "tetris_bleep",
+        "triggerFrame": 6551,
+        "time": "03:38.37",
+        "gain": 0.28
+      },
+      {
+        "clip": "tetris_bleep",
+        "triggerFrame": 6636,
+        "time": "03:41.20",
+        "gain": 0.28
+      }
+    ],
+    "vfxEvents": [
+      "TetrisCascade falling blocks",
+      "ArabicCallout: تجربة تتريس"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 32,
+    "sceneId": "S32",
+    "act": 3,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "03:46.27",
+    "endTime": "03:52.77",
+    "durationSec": 6.5,
+    "startFrame": 6788,
+    "endFrame": 6983,
+    "keyFrame": 95,
+    "narrationSegment": "وهذا يذكرنا بشيء مثير: مو كل أثر تتركه التجربه في دماغك لازم يكون ذكرى واضحه تقدر تحكيها.",
+    "sceneDescription": "آثار عصبية مضيئة تبقى في الدماغ حتى دون ذكرى صريحة.",
+    "cameraComposition": "Slow zoom onto glowing neural imprint ripples fading softly",
+    "characterAnimation": "Faint footprints/imprints glow along neural pathway",
+    "backgroundEnvironment": "Minimalist glowing blueprint canvas with warm gold neural traces",
+    "sfxEvents": [
+      {
+        "clip": "memory_spark",
+        "triggerFrame": 6823,
+        "time": "03:47.43",
+        "gain": 0.3
+      }
+    ],
+    "vfxEvents": [
+      "Glowing implicit imprint ripples"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 33,
+    "sceneId": "S33",
+    "act": 3,
+    "size": "wide",
+    "set": "ElementarySchool",
+    "look": "memory",
+    "startTime": "03:52.77",
+    "endTime": "03:59.17",
+    "durationSec": 6.4,
+    "startFrame": 6983,
+    "endFrame": 7175,
+    "keyFrame": 95,
+    "narrationSegment": "راكان مشى داخل المدرسه، لكنه لاحظ إن جميع الساعات واقفه على وقت واحد. ثلاثه وسبع دقايق.",
+    "sceneDescription": "يمشي راكان في ممر المدرسة ويلاحظ أن كل الساعات متوقفة على 03:07.",
+    "cameraComposition": "Tracking pan past two wall clocks frozen firmly at 03:07",
+    "characterAnimation": "Rakan walks down corridor (`walkPose`), pauses and looks up at frozen clock",
+    "backgroundEnvironment": "ElementarySchool hallway with twin FrozenClocks at 03:07 and Music Room door ahead",
+    "sfxEvents": [
+      {
+        "clip": "footstep_school",
+        "triggerFrame": 6998,
+        "time": "03:53.27",
+        "gain": 0.28
+      },
+      {
+        "clip": "footstep_school",
+        "triggerFrame": 7028,
+        "time": "03:54.27",
+        "gain": 0.28
+      },
+      {
+        "clip": "clock_tick_single",
+        "triggerFrame": 7093,
+        "time": "03:56.43",
+        "gain": 0.35
+      }
+    ],
+    "vfxEvents": [
+      "03:07 clock highlight rings"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 34,
+    "sceneId": "S34",
+    "act": 3,
+    "size": "medium",
+    "set": "MusicRoom",
+    "look": "memory",
+    "startTime": "03:59.17",
+    "endTime": "04:04.30",
+    "durationSec": 5.13,
+    "startFrame": 7175,
+    "endFrame": 7329,
+    "keyFrame": 80,
+    "narrationSegment": "ومن غرفه الموسيقى، سمع لحن قديم. فتح الباب، ولقى أبوه جالس يعزف على عود.",
+    "sceneDescription": "يتبع راكان لحناً قديماً إلى غرفة الموسيقى ليجد والده يعزف على العود.",
+    "cameraComposition": "Push-in from doorway into warm amber-lit MusicRoom",
+    "characterAnimation": "Father seated gently strumming the wooden Oud; Rakan enters frame at left doorway",
+    "backgroundEnvironment": "Warm nostalgic MusicRoom, floor lamp glow, floating golden dust motes",
+    "sfxEvents": [
+      {
+        "clip": "door_creak_open",
+        "triggerFrame": 7207,
+        "time": "04:00.23",
+        "gain": 0.35
+      },
+      {
+        "clip": "oud_melody",
+        "triggerFrame": 7220,
+        "time": "04:00.67",
+        "gain": 0.48
+      }
+    ],
+    "vfxEvents": [
+      "Warm golden acoustic glow",
+      "Vibrating Oud strings"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 35,
+    "sceneId": "S35",
+    "act": 3,
+    "size": "medium",
+    "set": "MusicRoom",
+    "look": "memory",
+    "startTime": "04:04.30",
+    "endTime": "04:12.00",
+    "durationSec": 7.7,
+    "startFrame": 7329,
+    "endFrame": 7560,
+    "keyFrame": 115,
+    "narrationSegment": "أبوه كان حي، لكن راكان ما سمعه يعزف من سنوات. من يوم انشغلوا كل واحد بحياته. جلس عند الباب، بدون ما يتكلم.",
+    "sceneDescription": "يجلس راكان صامتاً عند الباب يستمع إلى عزف والده بعد سنوات من الانشغال.",
+    "cameraComposition": "Steady emotional medium two-shot across the warm velvet rug",
+    "characterAnimation": "Rakan sits quietly near threshold knees drawn up; Father strums gently",
+    "backgroundEnvironment": "MusicRoom with warm floor lamp and soft acoustic slats",
+    "sfxEvents": [
+      {
+        "clip": "oud_melody",
+        "triggerFrame": 7339,
+        "time": "04:04.63",
+        "gain": 0.42
+      }
+    ],
+    "vfxEvents": [
+      "Gentle breathing dust in lamp cone"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 36,
+    "sceneId": "S36",
+    "act": 3,
+    "size": "close-up",
+    "set": "MusicRoom",
+    "look": "memory",
+    "startTime": "04:12.00",
+    "endTime": "04:17.03",
+    "durationSec": 5.03,
+    "startFrame": 7560,
+    "endFrame": 7711,
+    "keyFrame": 75,
+    "narrationSegment": "الأب طالع فيه وقال: «كل مره أقول لك تعال نجلس، تقول بعدين.» راكان نزل عيونه.",
+    "sceneDescription": "يتوقف الأب وينظر بحنان وعتاب قائلاً: كل مرة تقول بعدين، فيخفض راكان عينيه.",
+    "cameraComposition": "Intimate shot shifting from Father’s gentle face to Rakan lowering his gaze",
+    "characterAnimation": "Father stops strumming, turns head warmly toward Rakan; Rakan drops head (`headTilt=18`)",
+    "backgroundEnvironment": "Soft amber rim light, quiet stillness",
+    "sfxEvents": [
+      {
+        "clip": "oud_chord_fade",
+        "triggerFrame": 7562,
+        "time": "04:12.07",
+        "gain": 0.36
+      }
+    ],
+    "vfxEvents": [
+      "Warm emotional rim light"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 37,
+    "sceneId": "S37",
+    "act": 3,
+    "size": "memory insert",
+    "set": "Study",
+    "look": "memory",
+    "startTime": "04:17.03",
+    "endTime": "04:24.60",
+    "durationSec": 7.57,
+    "startFrame": 7711,
+    "endFrame": 7938,
+    "keyFrame": 115,
+    "narrationSegment": "وفجأه تذكر آخر مره رفض فيها دعوه أبوه، وهو مستعجل على شغل ما كان يستاهل. حس بضيق في صدره، كأنه رجع لنفس اللحظه.",
+    "sceneDescription": "ومضة ذكرى: راكان يرفض دعوة والده بسبب عمل عاجل لا يستحق، فيشعر بضيق في صدره.",
+    "cameraComposition": "Brief flashback push into study desk with laptop and ringing phone, returning to chest-tight Rakan",
+    "characterAnimation": "Past Rakan waves impatiently beside laptop; present Rakan clutches chest quietly",
+    "backgroundEnvironment": "Cool-slate Study desk flashback dissolving back into MusicRoom shadow",
+    "sfxEvents": [
+      {
+        "clip": "heartbeat_slow",
+        "triggerFrame": 7831,
+        "time": "04:21.03",
+        "gain": 0.42
+      }
+    ],
+    "vfxEvents": [
+      "Flashback vignette frame",
+      "Subtle chest-pulse glow"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 38,
+    "sceneId": "S38",
+    "act": 3,
+    "size": "wide",
+    "set": "MusicRoom",
+    "look": "dream",
+    "startTime": "04:24.60",
+    "endTime": "04:33.57",
+    "durationSec": 8.97,
+    "startFrame": 7938,
+    "endFrame": 8207,
+    "keyFrame": 145,
+    "narrationSegment": "بس صوت العود تغيّر، وصار أهدأ. والغرفه بدأت تتلاشى مثل الضباب.",
+    "sceneDescription": "يهدأ لحن العود وتبدأ جدران غرفة الموسيقى ووالده بالتلاشي تدريجياً مثل الضباب.",
+    "cameraComposition": "Slow pull-back as MusicRoom walls and furniture dissolve (`mist 0 -> 1`)",
+    "characterAnimation": "Rakan stands slowly watching Father and Oud fade serenely into luminous fog",
+    "backgroundEnvironment": "MusicRoom dissolving layer by layer into rolling blue-silver dream mist",
+    "sfxEvents": [
+      {
+        "clip": "oud_chord_fade",
+        "triggerFrame": 7943,
+        "time": "04:24.77",
+        "gain": 0.35
+      },
+      {
+        "clip": "mist_dissolve",
+        "triggerFrame": 8028,
+        "time": "04:27.60",
+        "gain": 0.42
+      }
+    ],
+    "vfxEvents": [
+      "Progressive mist dissolution (`mist 0 -> 1`)"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 39,
+    "sceneId": "S39",
+    "act": 3,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "04:33.57",
+    "endTime": "04:43.07",
+    "durationSec": 9.5,
+    "startFrame": 8207,
+    "endFrame": 8492,
+    "keyFrame": 145,
+    "narrationSegment": "الأحلام أحيانًا ترتبط بالمشاعر والأحداث اللي مرّينا فيها. فيه دراسات تشير إلى دور محتمل لنوم REM في معالجه بعض التجارب الانفعاليه، لكن العلماء ما حسموا إن الأحلام نفسها تعمل كعلاج، ولا إن كل كابوس مفيد.",
+    "sceneDescription": "دور نوم REM المحتمل في معالجة المشاعر مع التحفظ العلمي الدقيق.",
+    "cameraComposition": "Clean schematic framing emotional waveforms beside BrainDiagram",
+    "characterAnimation": "Emotional pulse waves soften gradually as they pass through REM filter",
+    "backgroundEnvironment": "Blueprint schematic balancing warm amber emotion waves and cool scientific clarity",
+    "sfxEvents": [
+      {
+        "clip": "brain_pulse",
+        "triggerFrame": 8242,
+        "time": "04:34.73",
+        "gain": 0.3
+      }
+    ],
+    "vfxEvents": [
+      "Emotional waveform modulation",
+      "ArabicCallout: المشاعر ونوم REM"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 40,
+    "sceneId": "S40",
+    "act": 3,
+    "size": "split screen",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "04:43.07",
+    "endTime": "04:55.20",
+    "durationSec": 12.13,
+    "startFrame": 8492,
+    "endFrame": 8856,
+    "keyFrame": 180,
+    "narrationSegment": "المهم هنا إن الشعور اللي عشته داخل الحلم ممكن يكون حقيقي بالنسبه لك، حتى لو الحدث نفسه مو حقيقي. عشان كذا تقدر تصحى من كابوس وقلبك يدق بسرعه، أو تصحى من حلم جميل وتظل مبتسم طول الصباح.",
+    "sceneDescription": "شطر الشاشة بين من يستيقظ من كابوس بقلب متسارع ومن يستيقظ مبتسماً من حلم جميل.",
+    "cameraComposition": "Split-screen balanced framing comparing Nightmare wake vs Peaceful wake",
+    "characterAnimation": "Left: sleeper jolts awake clutching chest (`shock`); Right: sleeper stretches with warm smile (`happy`)",
+    "backgroundEnvironment": "Left deep crimson pulse; Right warm morning gold",
+    "sfxEvents": [
+      {
+        "clip": "heartbeat_fast",
+        "triggerFrame": 8632,
+        "time": "04:47.73",
+        "gain": 0.42
+      },
+      {
+        "clip": "sparkle",
+        "triggerFrame": 8752,
+        "time": "04:51.73",
+        "gain": 0.3
+      }
+    ],
+    "vfxEvents": [
+      "Split-screen contrast divider",
+      "Animated ECG heartbeat pulse"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 41,
+    "sceneId": "S41",
+    "act": 4,
+    "size": "wide",
+    "set": "MusicRoom",
+    "look": "dream",
+    "startTime": "04:55.20",
+    "endTime": "05:03.00",
+    "durationSec": 7.8,
+    "startFrame": 8856,
+    "endFrame": 9090,
+    "keyFrame": 130,
+    "narrationSegment": "راكان وقف في وسط الغرفه الفاضيه، وقرر يسوي شيء غريب. قال بصوت عالي: «إذا هذا حلم... ورّني مكان ما قد شفته بحياتي.»",
+    "sceneDescription": "يقف راكان في الغرفة الفارغة الضبابية ويتحدى الحلم: ورّني مكاناً لم أره في حياتي.",
+    "cameraComposition": "Low-angle hero push-in in empty mist-filled room",
+    "characterAnimation": "Rakan stands tall in mist, spreads arms wide boldly (`expr=\"cool\"`), speaks challenge",
+    "backgroundEnvironment": "Empty mist-filled room trembling with gathering golden-cyan fractures",
+    "sfxEvents": [
+      {
+        "clip": "riser_tension",
+        "triggerFrame": 8936,
+        "time": "04:57.87",
+        "gain": 0.4
+      }
+    ],
+    "vfxEvents": [
+      "ArabicWhisper: ورّني مكان ما قد شفته بحياتي",
+      "Floor energy tremors"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 42,
+    "sceneId": "S42",
+    "act": 4,
+    "size": "dynamic wide",
+    "set": "CloudCity",
+    "look": "dream",
+    "startTime": "05:03.00",
+    "endTime": "05:07.00",
+    "durationSec": 4,
+    "startFrame": 9090,
+    "endFrame": 9210,
+    "keyFrame": 58,
+    "narrationSegment": "انشقت الأرض تحت رجوله. وطاح داخل مدينه معلّقه فوق الغيوم.",
+    "sceneDescription": "تنشق الأرض تحت قدمي راكان ويهوي داخل مدينة خيالية معلقة فوق الغيوم.",
+    "cameraComposition": "Rapid vertical camera drop following Rakan plummeting through clouds into sky metropolis",
+    "characterAnimation": "Floor cracks open; Rakan drops arms-up through rushing cloud layers",
+    "backgroundEnvironment": "Glowing fissure shards transitioning into expansive twilight CloudCity",
+    "sfxEvents": [
+      {
+        "clip": "ground_crack",
+        "triggerFrame": 9092,
+        "time": "05:03.07",
+        "gain": 0.65
+      },
+      {
+        "clip": "fall_whoosh",
+        "triggerFrame": 9110,
+        "time": "05:03.67",
+        "gain": 0.55
+      }
+    ],
+    "vfxEvents": [
+      "Jagged glowing ground fracture",
+      "Flash transition",
+      "Speed-line drop"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 43,
+    "sceneId": "S43",
+    "act": 4,
+    "size": "extreme wide",
+    "set": "CloudCity",
+    "look": "dream",
+    "startTime": "05:07.00",
+    "endTime": "05:12.90",
+    "durationSec": 5.9,
+    "startFrame": 9210,
+    "endFrame": 9387,
+    "keyFrame": 90,
+    "narrationSegment": "سيارات تمشي بالهواء. قطارات تعبر بين الأبراج.",
+    "sceneDescription": "مشهد بانورامي للمدينة المعلقة: سيارات تسبح في الهواء وقطارات تعبر بين الأبراج.",
+    "cameraComposition": "Sweeping panoramic crane shot across towering floating spires",
+    "characterAnimation": "Tiny Rakan silhouette lands gracefully on elevated spire terrace watching traffic",
+    "backgroundEnvironment": "CloudCity with hovering SkyCars, SkyTrain gliding on light-rail, drifting cloud banks",
+    "sfxEvents": [
+      {
+        "clip": "sky_city_ambience",
+        "triggerFrame": 9214,
+        "time": "05:07.13",
+        "gain": 0.34
+      },
+      {
+        "clip": "train_whoosh",
+        "triggerFrame": 9280,
+        "time": "05:09.33",
+        "gain": 0.4
+      }
+    ],
+    "vfxEvents": [
+      "Parallax cloud layers",
+      "Glowing sky-car headlight trails"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 44,
+    "sceneId": "S44",
+    "act": 4,
+    "size": "medium wide",
+    "set": "CloudCity",
+    "look": "dream",
+    "startTime": "05:12.90",
+    "endTime": "05:21.80",
+    "durationSec": 8.9,
+    "startFrame": 9387,
+    "endFrame": 9654,
+    "keyFrame": 135,
+    "narrationSegment": "وأسماك تسبح في السماء كأنها بحر. ما فيه قوانين فيزياء ثابته. ومع ذلك، كل شيء كان له منطق خاص في اللحظه ذيك. راكان ضحك.",
+    "sceneDescription": "أسماك مضيئة تسبح في السماء حول راكان الذي يضحك منبهراً بمنطق الحلم الخاص.",
+    "cameraComposition": "Medium tracking shot as iridescent SkyFish glide past Rakan on tower edge",
+    "characterAnimation": "Rakan watches a SkyFish swim by his face, laughs joyfully (`happy`), leaning forward",
+    "backgroundEnvironment": "Floating towers swaying gently, luminous SkyFish swimming smoothly through twilight air",
+    "sfxEvents": [
+      {
+        "clip": "sparkle",
+        "triggerFrame": 9407,
+        "time": "05:13.57",
+        "gain": 0.32
+      },
+      {
+        "clip": "laugh_soft",
+        "triggerFrame": 9597,
+        "time": "05:19.90",
+        "gain": 0.38
+      }
+    ],
+    "vfxEvents": [
+      "Luminous swimming SkyFish",
+      "Floating anti-gravity motes"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 45,
+    "sceneId": "S45",
+    "act": 4,
+    "size": "dynamic",
+    "set": "CloudCity",
+    "look": "dream",
+    "startTime": "05:21.80",
+    "endTime": "05:27.47",
+    "durationSec": 5.67,
+    "startFrame": 9654,
+    "endFrame": 9824,
+    "keyFrame": 85,
+    "narrationSegment": "ثم قفز من طرف برج، متوقع إنه يطير. لكن بدل الطيران، بدأ يطيح. وأول ما حس بالخوف... انتفض جسمه.",
+    "sceneDescription": "يقفز راكان من حافة البرج ظناً أنه سيطير، لكنه يبدأ بالسقوط ويشعر بالخوف فتنتفض عضلاته.",
+    "cameraComposition": "Dramatic edge leap into dizzying downward plummet (`tilt` + wind lines)",
+    "characterAnimation": "Rakan leaps cheerfully (`happy`), then expression flips to `shock` as he plummets headlong",
+    "backgroundEnvironment": "Skyscrapers rushing upward past falling Rakan toward deep cloud abyss",
+    "sfxEvents": [
+      {
+        "clip": "fall_whoosh",
+        "triggerFrame": 9689,
+        "time": "05:22.97",
+        "gain": 0.62
+      },
+      {
+        "clip": "hypnic_jerk",
+        "triggerFrame": 9802,
+        "time": "05:26.73",
+        "gain": 0.72
+      }
+    ],
+    "vfxEvents": [
+      "Vertical speed lines",
+      "Falling camera tilt"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 46,
+    "sceneId": "S46",
+    "act": 4,
+    "size": "medium",
+    "set": "RakanBedroom",
+    "look": "natural",
+    "startTime": "05:27.47",
+    "endTime": "05:34.23",
+    "durationSec": 6.77,
+    "startFrame": 9824,
+    "endFrame": 10027,
+    "keyFrame": 45,
+    "narrationSegment": "فتح عيونه للحظه، ثم رجع غمضها. يمكن قد صار لك هذا الشيء: تكون توك تغفو، وتحس فجأه إنك طحت من مكان عالي،",
+    "sceneDescription": "ينتفض جسد راكان بقوة على سريره ويفتح عينيه لحظة ثم يغمضهما مجدداً.",
+    "cameraComposition": "Hard cut to bedside medium shot with violent frame jolt on frame 1",
+    "characterAnimation": "Sleeping Rakan spasms sharply upward on mattress, eyes snap open wide, then squeeze shut",
+    "backgroundEnvironment": "Dark midnight bedroom, duvet rumpling from sudden jerk",
+    "sfxEvents": [
+      {
+        "clip": "bed_jolt",
+        "triggerFrame": 9826,
+        "time": "05:27.53",
+        "gain": 0.52
+      }
+    ],
+    "vfxEvents": [
+      "Impact shock shake",
+      "Brief white wake flash"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 47,
+    "sceneId": "S47",
+    "act": 4,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "05:34.23",
+    "endTime": "05:42.07",
+    "durationSec": 7.83,
+    "startFrame": 10027,
+    "endFrame": 10262,
+    "keyFrame": 120,
+    "narrationSegment": "فينتفض جسمك بقوه. يسمونه «النفضه النعاسيه»، أو Hypnic Jerk. تصير لكثير من الناس عند الانتقال للنوم، وهي مو دليل إنك كنت بتطيح فعلًا.",
+    "sceneDescription": "تفسير علمي لظاهرة النفضة النعاسية (Hypnic Jerk) عند الانتقال إلى النوم.",
+    "cameraComposition": "Clean blueprint diagram of sleeper silhouette and descending motor nerve pulse",
+    "characterAnimation": "Motor nerve spark triggers a single sharp muscle twitch wave across sleeping outline",
+    "backgroundEnvironment": "Blueprint schematic with Arabic & English Hypnic Jerk label",
+    "sfxEvents": [
+      {
+        "clip": "brain_pulse",
+        "triggerFrame": 10047,
+        "time": "05:34.90",
+        "gain": 0.38
+      }
+    ],
+    "vfxEvents": [
+      "Neural motor impulse spark",
+      "ArabicCallout: النفضة النعاسية · Hypnic Jerk"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 48,
+    "sceneId": "S48",
+    "act": 4,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "05:42.07",
+    "endTime": "05:51.10",
+    "durationSec": 9.03,
+    "startFrame": 10262,
+    "endFrame": 10533,
+    "keyFrame": 135,
+    "narrationSegment": "وقبل الدخول في النوم الكامل، بعض الناس يشوفون صور خاطفه أو يسمعون أصواتًا قصيرة. هذي تجارب ممكن تحصل في مرحله الانتقال بين الصحوه والنوم، وتسمى Hypnagogic Experiences.",
+    "sceneDescription": "التجارب الهيبناغوجية: صور خاطفة وأصوات قصيرة على عتبة الدخول في النوم.",
+    "cameraComposition": "Drifting twilight transition band between Awake and Sleep zones",
+    "characterAnimation": "Brief luminous geometric shapes & musical snippets flash along sleep threshold",
+    "backgroundEnvironment": "Gradient transition canvas labeled Wake -> Hypnagogic -> Sleep",
+    "sfxEvents": [
+      {
+        "clip": "sparkle",
+        "triggerFrame": 10297,
+        "time": "05:43.23",
+        "gain": 0.25
+      },
+      {
+        "clip": "whisper_riser",
+        "triggerFrame": 10382,
+        "time": "05:46.07",
+        "gain": 0.28
+      }
+    ],
+    "vfxEvents": [
+      "Hypnagogic flash shapes",
+      "ArabicCallout: Hypnagogic Experiences"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 49,
+    "sceneId": "S49",
+    "act": 4,
+    "size": "wide",
+    "set": "CloudCity",
+    "look": "dream",
+    "startTime": "05:51.10",
+    "endTime": "05:58.90",
+    "durationSec": 7.8,
+    "startFrame": 10533,
+    "endFrame": 10767,
+    "keyFrame": 120,
+    "narrationSegment": "لكن راكان، داخل قصتنا، ما كان يبي يطلع من الحلم. كان يبي يفهم إذا يقدر يتحكم فيه. رجع فتح عيونه، ولقى نفسه واقف على سطح برج، والهواء يحرك ملابسه.",
+    "sceneDescription": "يرفض راكان الخروج من الحلم؛ يفتح عينيه واقفاً على سطح برج عالٍ والرياح تحرك ملابسه.",
+    "cameraComposition": "Heroic low-angle push toward Rakan standing at skyscraper edge against twilight clouds",
+    "characterAnimation": "Rakan stands firm (`sway` oscillating briskly in wind), hoodie cords fluttering",
+    "backgroundEnvironment": "Tower rooftop ledge high above CloudCity, brisk wind particles sweeping across",
+    "sfxEvents": [
+      {
+        "clip": "roof_wind",
+        "triggerFrame": 10538,
+        "time": "05:51.27",
+        "gain": 0.36
+      }
+    ],
+    "vfxEvents": [
+      "High-altitude wind streaks",
+      "Rim-lit hero silhouette"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 50,
+    "sceneId": "S50",
+    "act": 4,
+    "size": "close-up",
+    "set": "CloudCity",
+    "look": "lucid",
+    "startTime": "05:58.90",
+    "endTime": "06:10.20",
+    "durationSec": 11.3,
+    "startFrame": 10767,
+    "endFrame": 11106,
+    "keyFrame": 165,
+    "narrationSegment": "ركز على يده. عد أصابعه. سته. قال: «أنا أحلم.» ولأول مره، ما قالها وهو خايف. قالها وهو متأكد.",
+    "sceneDescription": "يركز راكان على يده ذات الست أصابع ويقول بيقين وهدوء: «أنا أحلم.»",
+    "cameraComposition": "Insert on 6 fingers counting 1..6, then smooth cut to calm, determined eyes",
+    "characterAnimation": "Rakan counts fingers calmly (`handL=\"six\"`), lowers hand, smiles calmly with golden eye glint",
+    "backgroundEnvironment": "Twilight clouds shifting to luminous golden-cyan lucid aura",
+    "sfxEvents": [
+      {
+        "clip": "reality_chime",
+        "triggerFrame": 10842,
+        "time": "06:01.40",
+        "gain": 0.45
+      },
+      {
+        "clip": "lucid_chord",
+        "triggerFrame": 10932,
+        "time": "06:04.40",
+        "gain": 0.5
+      }
+    ],
+    "vfxEvents": [
+      "1..6 finger tally markers",
+      "Eye glint activation",
+      "ArabicWhisper: أنا أحلم"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 51,
+    "sceneId": "S51",
+    "act": 4,
+    "size": "wide",
+    "set": "CloudCity",
+    "look": "lucid",
+    "startTime": "06:10.20",
+    "endTime": "06:17.70",
+    "durationSec": 7.5,
+    "startFrame": 11106,
+    "endFrame": 11331,
+    "keyFrame": 115,
+    "narrationSegment": "وفجأه تغيّرت المدينه. الأبراج ثبتت. والخوف اختفى. وخطوه وحده كانت كافيه عشان يرتفع عن الأرض.",
+    "sceneDescription": "تثبت الأبراج في مكانها ويخطو راكان خطوة واحدة فيرتفع محلقاً في الهواء بثبات.",
+    "cameraComposition": "Rising crane shot following Rakan stepping off the tower roof and levitating smoothly",
+    "characterAnimation": "Rakan steps forward calmly (`glint=1`), ascends effortlessly above parapet as swaying towers lock steady",
+    "backgroundEnvironment": "CloudCity switches to crisp stabilized `lucid=1` golden-blue palette",
+    "sfxEvents": [
+      {
+        "clip": "lucid_ascend",
+        "triggerFrame": 11131,
+        "time": "06:11.03",
+        "gain": 0.55
+      },
+      {
+        "clip": "sparkle",
+        "triggerFrame": 11201,
+        "time": "06:13.37",
+        "gain": 0.32
+      }
+    ],
+    "vfxEvents": [
+      "Expanding golden lucid shock-ring",
+      "Tower stabilization lock"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 52,
+    "sceneId": "S52",
+    "act": 4,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "lucid",
+    "startTime": "06:17.70",
+    "endTime": "06:33.07",
+    "durationSec": 15.37,
+    "startFrame": 11331,
+    "endFrame": 11792,
+    "keyFrame": 220,
+    "narrationSegment": "هذا قريب من فكره اسمها «الحلم الواعي»، أو Lucid Dreaming: إنك تدرك إنك تحلم وإنت للحين داخل الحلم. بس انتبه، الوعي بالحلم ما يعني إنك تقدر تتحكم بكل تفاصيله. فيه ناس يعرفون إنهم يحلمون، ومع ذلك ما يقدرون يغيرون الأحداث.",
+    "sceneDescription": "شرح الحلم الواعي (Lucid Dreaming): الوعي بالحلم لا يعني دائماً القدرة على التحكم الكامل فيه.",
+    "cameraComposition": "Balanced scientific schematic contrasting Awareness vs Full Control dials",
+    "characterAnimation": "Rakan hovers inside schematic ring; Awareness gauge hits 100% while Control gauge oscillates mid-range",
+    "backgroundEnvironment": "Blueprint diagram with `Lucid Dreaming / الحلم الواعي` and dual control gauges",
+    "sfxEvents": [
+      {
+        "clip": "brain_pulse",
+        "triggerFrame": 11361,
+        "time": "06:18.70",
+        "gain": 0.3
+      },
+      {
+        "clip": "pop",
+        "triggerFrame": 11551,
+        "time": "06:25.03",
+        "gain": 0.26
+      }
+    ],
+    "vfxEvents": [
+      "Awareness vs Control gauges",
+      "ArabicCallout: الحلم الواعي · Lucid Dreaming"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 53,
+    "sceneId": "S53",
+    "act": 4,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "06:33.07",
+    "endTime": "06:49.27",
+    "durationSec": 16.2,
+    "startFrame": 11792,
+    "endFrame": 12278,
+    "keyFrame": 240,
+    "narrationSegment": "والظاهره مو مجرد قصه من الإنترنت. في تجارب مخبريه، اتفق بعض الحالمين الواعين مع الباحثين على إرسال إشارات بحركات العين خلال نوم REM. واستطاع العلماء تسجيل إشارات متفق عليها، وفي أبحاث لاحقه نجحت أشكال محدوده من التواصل مع أشخاص كانوا يحلمون بوعي.",
+    "sceneDescription": "التجارب المخبرية الموثقة: إشارات حركة العين المتفق عليها من داخل نوم REM والتواصل المحدود.",
+    "cameraComposition": "Lab schematic showing sleeping subject (left) connected to live EOG oscilloscope (right)",
+    "characterAnimation": "Subject’s closed eyes dart Left-Right-Left-Right while square-wave EOG spikes register cleanly on screen",
+    "backgroundEnvironment": "Sleep lab schematic with researcher monitor, EOG sensor lines, and Arabic/REM labels",
+    "sfxEvents": [
+      {
+        "clip": "counter_tick",
+        "triggerFrame": 11887,
+        "time": "06:36.23",
+        "gain": 0.28
+      },
+      {
+        "clip": "ding",
+        "triggerFrame": 12032,
+        "time": "06:41.07",
+        "gain": 0.38
+      }
+    ],
+    "vfxEvents": [
+      "Synchronized L-R-L-R eye signal waveform spikes"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 54,
+    "sceneId": "S54",
+    "act": 4,
+    "size": "wide",
+    "set": "DreamScience",
+    "look": "lucid",
+    "startTime": "06:49.27",
+    "endTime": "07:00.80",
+    "durationSec": 11.53,
+    "startFrame": 12278,
+    "endFrame": 12624,
+    "keyFrame": 170,
+    "narrationSegment": "تخيل: شخص نايم، جسمه شبه ساكن، وعقله داخل حلم... ومع هذا يقدر يرسل إشاره متفق عليها للعالم الخارجي. راكان تذكر السؤال اللي سمعه في الممر:",
+    "sceneDescription": "جسد ساكن تماماً في السرير بينما عقله يرسل إشارة مضيئة إلى العالم الخارجي.",
+    "cameraComposition": "Slow vertical pull-back separating quiet sleeping body below from radiant neural bridge above",
+    "characterAnimation": "Sleeper remains motionless below; glowing pulse waves travel upward from head into light",
+    "backgroundEnvironment": "Dark serene sleep chamber transitioning back toward sky-city rooftop",
+    "sfxEvents": [
+      {
+        "clip": "lucid_chord",
+        "triggerFrame": 12418,
+        "time": "06:53.93",
+        "gain": 0.34
+      }
+    ],
+    "vfxEvents": [
+      "Ascending neural signal rings"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 55,
+    "sceneId": "S55",
+    "act": 5,
+    "size": "medium",
+    "set": "CloudCity",
+    "look": "lucid",
+    "startTime": "07:00.80",
+    "endTime": "07:08.53",
+    "durationSec": 7.73,
+    "startFrame": 12624,
+    "endFrame": 12856,
+    "keyFrame": 115,
+    "narrationSegment": "«وش يضمن لي إني صحيت فعلًا؟» قرر يجرب طريقه بسيطه. طالع كلمه مكتوبه على لوحه فوق أحد الأبراج. كانت تقول: «العوده».",
+    "sceneDescription": "يتذكر راكان سؤاله ويجرب اختبار الواقع بقراءة لوحة نيون فوق أحد الأبراج مكتوب عليها «العودة».",
+    "cameraComposition": "Medium over-the-shoulder of hovering Rakan facing glowing tower billboard «العودة»",
+    "characterAnimation": "Rakan floats steady facing tower sign, narrows eyes thoughtfully",
+    "backgroundEnvironment": "CloudCity skyline with crisp glowing Arabic rooftop sign reading: العودة",
+    "sfxEvents": [
+      {
+        "clip": "sky_city_ambience",
+        "triggerFrame": 12629,
+        "time": "07:00.97",
+        "gain": 0.25
+      },
+      {
+        "clip": "sign_shimmer",
+        "triggerFrame": 12769,
+        "time": "07:05.63",
+        "gain": 0.32
+      }
+    ],
+    "vfxEvents": [
+      "Glowing Arabic billboard: العودة"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 56,
+    "sceneId": "S56",
+    "act": 5,
+    "size": "medium close-up",
+    "set": "CloudCity",
+    "look": "lucid",
+    "startTime": "07:08.53",
+    "endTime": "07:17.63",
+    "durationSec": 9.1,
+    "startFrame": 12856,
+    "endFrame": 13129,
+    "keyFrame": 165,
+    "narrationSegment": "لف وجهه، ورجع طالع. الكلمه تغيّرت إلى: «البدايه».",
+    "sceneDescription": "يلتفت راكان بعيداً ثم يعيد النظر فتتغير الكلمة على اللوحة إلى «البداية».",
+    "cameraComposition": "Rakan turns away (billboard blurs/offscreen hint) then snaps back onto transformed sign «البداية»",
+    "characterAnimation": "Rakan turns head left (`yaw -0.9`), pauses, turns back right (`yaw 0.4`) in quiet amazement",
+    "backgroundEnvironment": "Billboard shimmers and morphs text from العودة to البداية",
+    "sfxEvents": [
+      {
+        "clip": "sign_flip",
+        "triggerFrame": 12966,
+        "time": "07:12.20",
+        "gain": 0.5
+      }
+    ],
+    "vfxEvents": [
+      "Optical sign text morph: العودة -> البداية",
+      "Cyan/gold shimmer pulse"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 57,
+    "sceneId": "S57",
+    "act": 5,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "07:17.63",
+    "endTime": "07:29.27",
+    "durationSec": 11.63,
+    "startFrame": 13129,
+    "endFrame": 13478,
+    "keyFrame": 175,
+    "narrationSegment": "بعض الناس يستخدمون اختبارات واقع مثل النظر لليد أو إعادة قراءه نص، على أمل إن العاده تنتقل إلى الحلم. لكنها مو اختبارًا مضمونًا، وما فيه قاعده تقول إن النص لازم يتغير داخل كل حلم.",
+    "sceneDescription": "توضيح علمي لاختبارات الواقع (النظر لليد أو إعادة قراءة نص) وأنها ليست مضمونة دائماً.",
+    "cameraComposition": "Dual-card schematic comparing Hand Check & Text Re-read reality checks",
+    "characterAnimation": "Two schematic icons animate cleanly with probabilistic gauge (not 100%)",
+    "backgroundEnvironment": "Blueprint science layout with crisp Arabic & metric annotations",
+    "sfxEvents": [
+      {
+        "clip": "pop",
+        "triggerFrame": 13169,
+        "time": "07:18.97",
+        "gain": 0.26
+      },
+      {
+        "clip": "pop",
+        "triggerFrame": 13264,
+        "time": "07:22.13",
+        "gain": 0.26
+      }
+    ],
+    "vfxEvents": [
+      "Reality check analytical cards"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 58,
+    "sceneId": "S58",
+    "act": 5,
+    "size": "medium",
+    "set": "Study",
+    "look": "natural",
+    "startTime": "07:29.27",
+    "endTime": "07:38.37",
+    "durationSec": 9.1,
+    "startFrame": 13478,
+    "endFrame": 13751,
+    "keyFrame": 135,
+    "narrationSegment": "والأهم، لا تخلي هالأفكار تربكك في حياتك اليوميه. الواقع نتحقق منه بحواسنا وبأشياء ثابته حولنا، مو بمجرد خدعه في حلم.",
+    "sceneDescription": "تذكير مهم بالاعتماد على الحواس والثوابت الملموسة في الحياة اليومية لا على حيل الأحلام.",
+    "cameraComposition": "Grounded steady push-in inside warm solid Study room",
+    "characterAnimation": "Rakan places both hands firmly on wooden study desk, grounded and calm",
+    "backgroundEnvironment": "Warm realistic Study room with solid lamp, books, window light",
+    "sfxEvents": [
+      {
+        "clip": "room_tone",
+        "triggerFrame": 13483,
+        "time": "07:29.43",
+        "gain": 0.18
+      },
+      {
+        "clip": "hand_tap_wood",
+        "triggerFrame": 13568,
+        "time": "07:32.27",
+        "gain": 0.35
+      }
+    ],
+    "vfxEvents": [
+      "Warm grounded practical lighting"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 59,
+    "sceneId": "S59",
+    "act": 5,
+    "size": "wide",
+    "set": "CloudCity",
+    "look": "lucid",
+    "startTime": "07:38.37",
+    "endTime": "07:50.70",
+    "durationSec": 12.33,
+    "startFrame": 13751,
+    "endFrame": 14121,
+    "keyFrame": 185,
+    "narrationSegment": "لكن بالنسبه لراكان، الكلمه المتغيّره كانت كافيه عشان يسأل سؤالًا أكبر. إذا الدماغ قادر يبني مدينه، وناس، وأصوات، وحتى إحساس الزمن... وش الفرق بين العالم اللي يصنعه وإحنا نايمين، والعالم اللي نحسه وإحنا صاحيين؟",
+    "sceneDescription": "يتساءل راكان محلقاً فوق المدينة: ما الفرق بين العالم الذي يبنيه الدماغ في النوم والعالم في اليقظة؟",
+    "cameraComposition": "Sweeping orbital shot around levitating Rakan as city, silhouettes, and clock rings orbit gently",
+    "characterAnimation": "Rakan floats thoughtfully with arms relaxed (`expr=\"neutral\"`), surrounded by orbiting motifs",
+    "backgroundEnvironment": "Expansive CloudCity twilight sky with subtle floating clock rings",
+    "sfxEvents": [
+      {
+        "clip": "lucid_chord",
+        "triggerFrame": 13781,
+        "time": "07:39.37",
+        "gain": 0.32
+      }
+    ],
+    "vfxEvents": [
+      "Orbiting city/sound/time rings",
+      "ArabicWhisper: وش الفرق بين العالمين؟"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 60,
+    "sceneId": "S60",
+    "act": 5,
+    "size": "split schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "07:50.70",
+    "endTime": "08:02.33",
+    "durationSec": 11.63,
+    "startFrame": 14121,
+    "endFrame": 14470,
+    "keyFrame": 175,
+    "narrationSegment": "الفرق الأساسي إننا في اليقظه نستقبل إشارات مستمره من العالم الخارجي، ودماغنا يحدّث فهمه بناءً عليها. أما أثناء الحلم، فالتجربه تعتمد بدرجه أكبر على النشاط الداخلي، مع إنه ممكن تدخل فيها أصوات أو أحاسيس من حولنا.",
+    "sceneDescription": "مقارنة علمية: اليقظة تعتمد على تحديث مستمر من الحواس الخارجية، بينما الحلم يعتمد على النشاط الداخلي.",
+    "cameraComposition": "Balanced left/right split blueprint comparison",
+    "characterAnimation": "Left (اليقظة): continuous external arrows updating brain; Right (الحلم): internal loop + faint outside bleed-in",
+    "backgroundEnvironment": "Clean split schematic with live directional signal particles",
+    "sfxEvents": [
+      {
+        "clip": "brain_pulse",
+        "triggerFrame": 14156,
+        "time": "07:51.87",
+        "gain": 0.3
+      },
+      {
+        "clip": "eeg_sweep",
+        "triggerFrame": 14311,
+        "time": "07:57.03",
+        "gain": 0.28
+      }
+    ],
+    "vfxEvents": [
+      "Continuous sensory signal arrows vs internal neural loop"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 61,
+    "sceneId": "S61",
+    "act": 5,
+    "size": "schematic",
+    "set": "DreamScience",
+    "look": "science",
+    "startTime": "08:02.33",
+    "endTime": "08:11.10",
+    "durationSec": 8.77,
+    "startFrame": 14470,
+    "endFrame": 14733,
+    "keyFrame": 130,
+    "narrationSegment": "هذا ما يعني إن الحياه حلم، ولا إن العلم أثبت إن الواقع وهم. لكنه يورينا إن إحساسنا بالعالم مو تصويره خام، بل تجربه يصنعها الدماغ باستخدام المعلومات اللي توصله.",
+    "sceneDescription": "إدراكنا للعالم ليس تصويراً خاماً كالكاميرا، بل تجربة متكاملة يصنعها الدماغ من المعلومات الواصلة إليه.",
+    "cameraComposition": "Push-in from camera-lens icon to illuminated neural painter/model builder",
+    "characterAnimation": "Raw light waves enter lens -> Brain constructs full color-graded room projection",
+    "backgroundEnvironment": "Deep blueprint canvas with crisp optic-to-cortex synthesis diagram",
+    "sfxEvents": [
+      {
+        "clip": "synth_build",
+        "triggerFrame": 14515,
+        "time": "08:03.83",
+        "gain": 0.32
+      }
+    ],
+    "vfxEvents": [
+      "Optic wave to constructed perception model"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 62,
+    "sceneId": "S62",
+    "act": 5,
+    "size": "wide",
+    "set": "CloudCity",
+    "look": "lucid",
+    "startTime": "08:11.10",
+    "endTime": "08:20.20",
+    "durationSec": 9.1,
+    "startFrame": 14733,
+    "endFrame": 15006,
+    "keyFrame": 140,
+    "narrationSegment": "راكان كان يطير فوق المدينه، وفجأه ظهرت الساعه العملاقه قدامه. العقارب رجعت تتحرك، لكن هالمره للأمام. ثلاثه وسبع دقايق. ثلاثه وثمان دقايق. ثلاثه وتسع دقايق.",
+    "sceneDescription": "تظهر الساعة العملاقة أمام راكان في السماء، وتبدأ عقاربها بالتقدم للأمام: 03:07، 03:08، 03:09.",
+    "cameraComposition": "Dramatic wide reveal as colossal glowing clock materializes ahead in the clouds",
+    "characterAnimation": "Rakan halts mid-flight facing the giant clock; minute hand ticks forward cleanly across 07 -> 08 -> 09",
+    "backgroundEnvironment": "CloudCity parting around colossal golden-rimmed SkyClock",
+    "sfxEvents": [
+      {
+        "clip": "clock_forward_tick",
+        "triggerFrame": 14828,
+        "time": "08:14.27",
+        "gain": 0.52
+      },
+      {
+        "clip": "clock_forward_tick",
+        "triggerFrame": 14881,
+        "time": "08:16.03",
+        "gain": 0.52
+      },
+      {
+        "clip": "clock_forward_tick",
+        "triggerFrame": 14935,
+        "time": "08:17.83",
+        "gain": 0.52
+      }
+    ],
+    "vfxEvents": [
+      "Colossal clock manifestation",
+      "Forward tick glow pulses (03:07 / 03:08 / 03:09)"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 63,
+    "sceneId": "S63",
+    "act": 5,
+    "size": "medium close-up",
+    "set": "CloudCity",
+    "look": "memory",
+    "startTime": "08:20.20",
+    "endTime": "08:31.43",
+    "durationSec": 11.23,
+    "startFrame": 15006,
+    "endFrame": 15343,
+    "keyFrame": 165,
+    "narrationSegment": "وسمع صوت أبوه يقول من بعيد: «يا راكان... لا تأجل كل شيء لبعدين.» غمض عيونه، وقال: «أبي أصحى.» انطفى كل شيء.",
+    "sceneDescription": "يتردد صوت والده من بعيد: لا تأجل كل شيء لبعدين؛ يغمض راكان عينيه ويهمس: أبي أصحى، فينطفئ كل شيء.",
+    "cameraComposition": "Slow push into Rakan’s peaceful closed eyes before complete fade to true black",
+    "characterAnimation": "Warm silhouette of Father shimmers behind golden horizon; Rakan closes eyes serenely (`blink=1`)",
+    "backgroundEnvironment": "Golden cloud light gently extinguishing into deep black silence at frame b-30",
+    "sfxEvents": [
+      {
+        "clip": "oud_chord_fade",
+        "triggerFrame": 15018,
+        "time": "08:20.60",
+        "gain": 0.32
+      },
+      {
+        "clip": "power_off_void",
+        "triggerFrame": 15246,
+        "time": "08:28.20",
+        "gain": 0.55
+      }
+    ],
+    "vfxEvents": [
+      "Father warm horizon silhouette",
+      "Smooth fade to true black (`#000000`)"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 64,
+    "sceneId": "S64",
+    "act": 6,
+    "size": "medium",
+    "set": "RakanBedroom",
+    "look": "dawn",
+    "startTime": "08:31.43",
+    "endTime": "08:41.70",
+    "durationSec": 10.27,
+    "startFrame": 15343,
+    "endFrame": 15651,
+    "keyFrame": 170,
+    "narrationSegment": "فتح عيونه في غرفته. سمع صوت المكيف. وشاف خيط نور الفجر داخل من الستاره. الجوال على الطاوله. الوقت: ستّه وإحدى عشر دقيقه. رفع يده. عد أصابعه. خمسه. ضحك ضحكه صغيره، لكنه هالمره ما اكتفى بالعدد.",
+    "sceneDescription": "يستيقظ راكان في ضوء الفجر على صوت المكيف؛ الساعة 06:11 ويده بها خمس أصابع فقط فيضحك بارتياح.",
+    "cameraComposition": "Gentle wake-up push from bed to phone (06:11) and Rakan counting 5 normal fingers",
+    "characterAnimation": "Rakan opens eyes calmly, sits up, lifts open 5-fingered hand (`handL=\"open\"`), laughs softly (`happy`)",
+    "backgroundEnvironment": "RakanBedroom with AC airflow active (`acOn=true`) and warm dawn light sliver slicing through curtains",
+    "sfxEvents": [
+      {
+        "clip": "ac_hum",
+        "triggerFrame": 15348,
+        "time": "08:31.60",
+        "gain": 0.22
+      },
+      {
+        "clip": "phone_chime",
+        "triggerFrame": 15453,
+        "time": "08:35.10",
+        "gain": 0.24
+      },
+      {
+        "clip": "laugh_soft",
+        "triggerFrame": 15558,
+        "time": "08:38.60",
+        "gain": 0.32
+      }
+    ],
+    "vfxEvents": [
+      "Dawn sunlight beam",
+      "5-finger verification glint"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 65,
+    "sceneId": "S65",
+    "act": 6,
+    "size": "wide",
+    "set": "DawnStreet",
+    "look": "dawn",
+    "startTime": "08:41.70",
+    "endTime": "08:52.60",
+    "durationSec": 10.9,
+    "startFrame": 15651,
+    "endFrame": 15978,
+    "keyFrame": 165,
+    "narrationSegment": "قام، فتح الستاره، وشاف الناس رايحين لدواماتهم، والسيارات واقفه عند الإشاره، وسمع العصافير من الشارع. كل شيء كان عادي جدًا. ولأول مره، حس إن العادي نفسه شيء عجيب.",
+    "sceneDescription": "يفتح راكان الستارة ليرى الشارع الصباحي، المارة، السيارات عند الإشارة، والعصافير، مندهشاً بجمال العادي.",
+    "cameraComposition": "Curtains part cleanly into panoramic morning DawnStreet view",
+    "characterAnimation": "Rakan pulls curtain aside (foreground silhouette) watching commuters walk, traffic signal shift, birds fly",
+    "backgroundEnvironment": "Crisp sunlit DawnStreet with commuters, waiting cars, traffic light, soaring morning birds",
+    "sfxEvents": [
+      {
+        "clip": "curtain_open",
+        "triggerFrame": 15661,
+        "time": "08:42.03",
+        "gain": 0.45
+      },
+      {
+        "clip": "morning_birds",
+        "triggerFrame": 15691,
+        "time": "08:43.03",
+        "gain": 0.34
+      }
+    ],
+    "vfxEvents": [
+      "Warm morning golden haze",
+      "Curtain reveal wipe"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 66,
+    "sceneId": "S66",
+    "act": 6,
+    "size": "split medium",
+    "set": "RakanBedroom",
+    "look": "dawn",
+    "startTime": "08:52.60",
+    "endTime": "09:04.70",
+    "durationSec": 12.1,
+    "startFrame": 15978,
+    "endFrame": 16341,
+    "keyFrame": 185,
+    "narrationSegment": "فتح جواله، ودق على أبوه. رد عليه أبوه وهو مستغرب: «خير يا ولدي؟ وش مصحيك بدري؟» راكان ابتسم وقال: «ولا شيء يا يبه... بس ودي أشوفك اليوم.»",
+    "sceneDescription": "يتصل راكان بوالده صباحاً ليقول له بابتسامة دافئة: بس ودي أشوفك اليوم.",
+    "cameraComposition": "Warm dual framing: Rakan on phone in dawn room (left) & Father smiling with coffee/Oud nearby (right)",
+    "characterAnimation": "Rakan holds phone to ear smiling (`happy`); Father raises eyebrows warmly in pleasant surprise",
+    "backgroundEnvironment": "Soft morning sunlight linking both homes harmoniously",
+    "sfxEvents": [
+      {
+        "clip": "phone_dial_ring",
+        "triggerFrame": 15990,
+        "time": "08:53.00",
+        "gain": 0.34
+      }
+    ],
+    "vfxEvents": [
+      "Warm morning split divider"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 67,
+    "sceneId": "S67",
+    "act": 6,
+    "size": "panning medium",
+    "set": "RakanBedroom",
+    "look": "dawn",
+    "startTime": "09:04.70",
+    "endTime": "09:14.63",
+    "durationSec": 9.93,
+    "startFrame": 16341,
+    "endFrame": 16639,
+    "keyFrame": 190,
+    "narrationSegment": "وقبل ما يقفل، طالع عند باب غرفته. ما كان فيه ممر أزرق. ولا ساعه تمشي بالعكس. بس على طرف المرآه، كانت فيه ورقه صغيره ما يتذكر إنه حطها. مكتوب عليها بخط يده: «إذا حلمت الليله... حاول تتذكر.»",
+    "sceneDescription": "ينظر راكان لباب الغرفة الطبيعي ثم يلمح ورقة صغيرة على طرف المرآة بخط يده: «إذا حلمت الليله... حاول تتذكر.»",
+    "cameraComposition": "Smooth pan from normal closed bedroom door across to close-up on yellow sticky note on mirror corner",
+    "characterAnimation": "Rakan glances toward door calmly, then freezes subtly as camera reveals handwritten mirror note",
+    "backgroundEnvironment": "Normal bedroom door, then mirror frame holding yellow sticky note with crisp Arabic handwriting",
+    "sfxEvents": [
+      {
+        "clip": "paper_rustle",
+        "triggerFrame": 16476,
+        "time": "09:09.20",
+        "gain": 0.38
+      },
+      {
+        "clip": "reality_chime",
+        "triggerFrame": 16551,
+        "time": "09:11.70",
+        "gain": 0.42
+      }
+    ],
+    "vfxEvents": [
+      "Mirror note macro push-in",
+      "ArabicCallout: إذا حلمت الليله... حاول تتذكر."
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 68,
+    "sceneId": "S68",
+    "act": 6,
+    "size": "wide",
+    "set": "CloudCity",
+    "look": "dream",
+    "startTime": "09:14.63",
+    "endTime": "09:25.70",
+    "durationSec": 11.07,
+    "startFrame": 16639,
+    "endFrame": 16971,
+    "keyFrame": 165,
+    "narrationSegment": "وهنا السؤال لك أنت. عمرك صحيت من حلم، وحسيت إنك عشت حياه كامله خلال دقائق؟ أو اكتشفت داخل حلمك إنك تحلم، وقدرت تغيّر شيء واحد فيه؟ اكتب أغرب حلم تتذكره بالتعليقات.",
+    "sceneDescription": "سؤال تفاعلي للمشاهد وسط سماء الأحلام المرصعة بالنجوم: اكتب أغرب حلم تتذكره بالتعليقات.",
+    "cameraComposition": "Gentle cosmic drift across twilight sky-dream vignettes",
+    "characterAnimation": "Floating dream-clock and luminous hand-check silhouettes drift past starry backdrop",
+    "backgroundEnvironment": "Deep twilight sky dotted with golden constellations and floating Arabic prompt",
+    "sfxEvents": [
+      {
+        "clip": "sparkle",
+        "triggerFrame": 16819,
+        "time": "09:20.63",
+        "gain": 0.3
+      }
+    ],
+    "vfxEvents": [
+      "ArabicWhisper: اكتب أغرب حلم تتذكره بالتعليقات"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 69,
+    "sceneId": "S69",
+    "act": 6,
+    "size": "overhead insert",
+    "set": "RakanBedroom",
+    "look": "dawn",
+    "startTime": "09:25.70",
+    "endTime": "09:36.03",
+    "durationSec": 10.33,
+    "startFrame": 16971,
+    "endFrame": 17281,
+    "keyFrame": 155,
+    "narrationSegment": "وقبل ما تنام الليله، جرّب تحط دفتر قريب منك. إذا صحيت وفي بالك حلم، اكتب اللي تتذكره على طول. مو عشان تفتح بوابه لعالم سري، لكن عشان تكتشف كم عالم صغير يمر في بالك... وينتهي قبل ما يبدأ يومك.",
+    "sceneDescription": "لقطة علوية لدفتر وقلم بجانب السرير ومصباح دافئ، تطفو فوق صفحاته عوالم صغيرة مضيئة.",
+    "cameraComposition": "Top-down tabletop/bedside insert slow zoom toward open dream journal & pen",
+    "characterAnimation": "Pen rests neatly across open lined notebook while tiny luminous worlds drift off the pages",
+    "backgroundEnvironment": "Warm bedside wood surface, soft lamp cone, rising miniature glowing dream worlds",
+    "sfxEvents": [
+      {
+        "clip": "paper_land",
+        "triggerFrame": 17001,
+        "time": "09:26.70",
+        "gain": 0.3
+      },
+      {
+        "clip": "sparkle",
+        "triggerFrame": 17161,
+        "time": "09:32.03",
+        "gain": 0.28
+      }
+    ],
+    "vfxEvents": [
+      "Miniature glowing worlds rising from open notebook pages"
+    ],
+    "status": "implemented"
+  },
+  {
+    "index": 70,
+    "sceneId": "S70",
+    "act": 6,
+    "size": "wide outro",
+    "set": "CloudCity",
+    "look": "dawn",
+    "startTime": "09:36.03",
+    "endTime": "09:42.93",
+    "durationSec": 6.9,
+    "startFrame": 17281,
+    "endFrame": 17488,
+    "keyFrame": 105,
+    "narrationSegment": "يمكن أغرب شيء في الأحلام، مو إننا نشوف المستحيل. يمكن أغرب شيء... إننا نصدّقه، لين نصحى.",
+    "sceneDescription": "الخاتمة السينمائية: انسحاب بطيء نحو أفق الفجر والنجوم مع الجملة الختامية.",
+    "cameraComposition": "Majestic pull-back toward starry dawn horizon & clean closing quote",
+    "characterAnimation": "Rakan silhouette stands serenely overlooking dawn clouds before final fade",
+    "backgroundEnvironment": "Starry twilight transitioning to warm dawn gold horizon",
+    "sfxEvents": [
+      {
+        "clip": "lucid_chord",
+        "triggerFrame": 17321,
+        "time": "09:37.37",
+        "gain": 0.4
+      }
+    ],
+    "vfxEvents": [
+      "ArabicTitleCard: إننا نصدّقه، لين نصحى."
+    ],
+    "status": "implemented"
+  }
+]

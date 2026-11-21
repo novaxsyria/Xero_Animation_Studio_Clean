@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "types": ["vite/client"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "exclude": [
+    "dist",
+    "studio/remotion.config.ts",
+    "studio/src/index.ts",
+    "studio/src/Root.tsx",
+    "studio/src/CastSheet.tsx",
+    "studio/src/engine/episode.tsx",
+    "studio/src/engine/fonts.ts",
+    "studio/src/engine/index.ts",
+    "studio/src/episodes/index.ts",
+    "studio/src/episodes/hal-taarif-innaka-tahlum/index.tsx",
+    "studio/src/episodes/khizanat-al-ghurfa/index.tsx"
+  ]
+}

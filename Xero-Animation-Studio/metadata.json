@@ -1,0 +1,6 @@
+{
+  "name": "Xero Studio — هل تعرف إنك تحلم؟",
+  "description": "Complete 2D cinematic Arabic animated episode production studio and Remotion render project for هل تعرف إنك تحلم؟ (Xero).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

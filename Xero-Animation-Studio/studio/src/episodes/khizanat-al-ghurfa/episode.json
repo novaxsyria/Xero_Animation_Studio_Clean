@@ -1,0 +1,651 @@
+{
+  "id": "KhizanatAlGhurfa",
+  "slug": "khizanat-al-ghurfa",
+  "title": "من داخل الخزانة",
+  "durationSeconds": 32,
+  "fps": 30,
+  "totalFrames": 960,
+  "resolution": {
+    "width": 1080,
+    "height": 1920,
+    "aspectRatio": "9:16"
+  },
+  "alignmentNote": "18 dynamic vertical 9:16 (1080x1920) shots + synced Arabic subtitles aligned via analyze_audio.mjs silencedetect against tts-output_10__5aad1f8e.mp3 (30.792s) with 100% wet telephone-caller & closet-horror-entity presets + clock-tick silence contrast + post-line horror sting at f915.",
+  "voiceSegments": [
+    {
+      "id": "vs_caller_phone",
+      "sceneId": "S13",
+      "speakerRole": "Unknown Trapped Caller",
+      "characterMood": "frantic-elder-urgent",
+      "preset": "telephone-caller",
+      "startSec": 21.9,
+      "endSec": 24.06,
+      "fadeSec": 0.024,
+      "pitchSemitones": -2.2,
+      "wetMix": 1
+    },
+    {
+      "id": "vs_closet_entity",
+      "sceneId": "S18",
+      "speakerRole": "Closet Horror Entity",
+      "characterMood": "chilling-demonic-deceptive",
+      "preset": "closet-horror-entity",
+      "startSec": 28.9,
+      "endSec": 30.52,
+      "fadeSec": 0.024,
+      "pitchSemitones": -3.8,
+      "wetMix": 1,
+      "followupSfxClip": "horror_sting_climax",
+      "followupSfxFrame": 915
+    }
+  ],
+  "subtitles": [
+    {
+      "a": 6,
+      "b": 44,
+      "text": "تخيل إنك نايم بغرفتك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 48,
+      "b": 127,
+      "text": "وفجأه تسمع صوت أحد يتنفس من داخل الخزانه",
+      "speaker": "narrator"
+    },
+    {
+      "a": 136,
+      "b": 162,
+      "text": "تفتح عيونك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 170,
+      "b": 233,
+      "text": "وتلاحظ إن باب الخزانه يتحرك بشويش",
+      "speaker": "narrator"
+    },
+    {
+      "a": 241,
+      "b": 269,
+      "text": "تقوم من سريرك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 276,
+      "b": 326,
+      "text": "وتمشي باتجاهها",
+      "speaker": "narrator"
+    },
+    {
+      "a": 334,
+      "b": 376,
+      "text": "وكل ما تقرب تسمع أحد يهمس باسمك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 392,
+      "b": 420,
+      "text": "تمد يدك للمقبض",
+      "speaker": "narrator"
+    },
+    {
+      "a": 421,
+      "b": 466,
+      "text": "وفجأه يرن جوالك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 472,
+      "b": 513,
+      "text": "رقم غريب يتصل عليك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 517,
+      "b": 566,
+      "text": "ترد وتسمع صوت رجال كبير",
+      "speaker": "narrator"
+    },
+    {
+      "a": 567,
+      "b": 654,
+      "text": "كأنه يتكلم من مسجل قديم يقول لك بصوت مرعوب",
+      "speaker": "narrator"
+    },
+    {
+      "a": 657,
+      "b": 688,
+      "text": "لا تفتح الخزانه",
+      "speaker": "caller"
+    },
+    {
+      "a": 690,
+      "b": 722,
+      "text": "أنا محبوس داخلها",
+      "speaker": "caller"
+    },
+    {
+      "a": 727,
+      "b": 757,
+      "text": "تتجمد بمكانك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 761,
+      "b": 812,
+      "text": "وفجأه ينفتح باب الخزانه شوي",
+      "speaker": "narrator"
+    },
+    {
+      "a": 815,
+      "b": 865,
+      "text": "وتسمع صوت ثاني من داخلها يقول",
+      "speaker": "narrator"
+    },
+    {
+      "a": 867,
+      "b": 938,
+      "text": "لا تصدقه أنا اللي اتصلت عليك",
+      "speaker": "entity"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "act": 1,
+      "size": "wide vertical establishing moonlit bedroom",
+      "set": "ClosetBedroom",
+      "key": 24,
+      "a": 0,
+      "b": 46,
+      "note": "لقطة طولية تأسيسية لغرفة النوم ليلاً بأسلوب Amber Noir: أشعة القمر المائلة تعبر السجادة والأرضية والبطل نائم بهدوء في السرير يساراً.",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "room_tone_bedroom",
+          0,
+          0.3
+        ],
+        [
+          "clock_tick",
+          15,
+          0.34
+        ]
+      ]
+    },
+    {
+      "id": "S02",
+      "act": 1,
+      "size": "vertical closet seam breath reveal",
+      "set": "ClosetBedroom",
+      "key": 42,
+      "a": 46,
+      "b": 131,
+      "note": "قطع نحو الخزانة الشاهقة يميناً: يتصاعد بخار تنفس بارد من شق الباب المغلق مع اهتزاز خفيف للمقبض النحاسي.",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "closet_breath",
+          2,
+          0.9
+        ],
+        [
+          "clock_tick",
+          -1,
+          0.34
+        ],
+        [
+          "clock_tick",
+          29,
+          0.34
+        ],
+        [
+          "clock_tick",
+          59,
+          0.34
+        ]
+      ]
+    },
+    {
+      "id": "S03",
+      "act": 1,
+      "size": "tight vertical shock eye-snap on pillow",
+      "set": "ClosetBedroom",
+      "key": 17,
+      "a": 131,
+      "b": 165,
+      "note": "لقطة قريبة جداً لوجه البطل على الوسادة: تنفتح عيناه فجأة برعب صامت وتتجه حدقتاه للأعلى نحو الخزانة يميناً.",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "bed_rustle",
+          4,
+          0.45
+        ],
+        [
+          "clock_tick",
+          4,
+          0.34
+        ]
+      ]
+    },
+    {
+      "id": "S04",
+      "act": 1,
+      "size": "rack-pan bed reaction to creeping closet",
+      "set": "ClosetBedroom",
+      "key": 37,
+      "a": 165,
+      "b": 237,
+      "note": "يرفع البطل جذعه بحذر من السرير بينما تنحرف الكاميرا نحو الخزانة يميناً حيث تنفتح ضلفتها تلقائياً بمقدار شق ضيق.",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "closet_creak_slow",
+          7,
+          0.78
+        ],
+        [
+          "clock_tick",
+          0,
+          0.34
+        ],
+        [
+          "clock_tick",
+          30,
+          0.34
+        ],
+        [
+          "clock_tick",
+          60,
+          0.34
+        ]
+      ]
+    },
+    {
+      "id": "S05",
+      "act": 2,
+      "size": "vertical bed-edge rise & duvet drop",
+      "set": "ClosetBedroom",
+      "key": 19,
+      "a": 237,
+      "b": 272,
+      "note": "لقطة متوسطة لحافة السرير بينما يزيح البطل اللحاف وينهض واقفاً على الأرضية الخشبية مستعداً للتقدم.",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "bed_rustle",
+          1,
+          0.7
+        ],
+        [
+          "clock_tick",
+          18,
+          0.34
+        ]
+      ]
+    },
+    {
+      "id": "S06",
+      "act": 2,
+      "size": "vertical low-angle floor stride tracking",
+      "set": "ClosetBedroom",
+      "key": 28,
+      "a": 272,
+      "b": 330,
+      "note": "كاميرا متتبعة من مستوى منخفض تتابع خطوات البطل الحذرة عبر حزمة ضوء القمر والسجادة نحو ظل الخزانة.",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "step_wood_1",
+          4,
+          0.72
+        ],
+        [
+          "step_wood_2",
+          24,
+          0.68
+        ],
+        [
+          "step_wood_3",
+          45,
+          0.65
+        ],
+        [
+          "clock_tick",
+          13,
+          0.34
+        ],
+        [
+          "clock_tick",
+          43,
+          0.34
+        ]
+      ]
+    },
+    {
+      "id": "S07",
+      "act": 2,
+      "size": "over-shoulder whisper shock squeeze",
+      "set": "ClosetBedroom",
+      "key": 30,
+      "a": 330,
+      "b": 384,
+      "note": "من خلف الكتف أثناء الاقتراب: يتوقف البطل فجأة وموجات همس باردة تخرج من شق الخزانة المظلم لتضرب أذنه.",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "step_wood_4",
+          6,
+          0.56
+        ],
+        [
+          "closet_whisper_air",
+          12,
+          0.9
+        ],
+        [
+          "clock_tick",
+          15,
+          0.34
+        ],
+        [
+          "clock_tick",
+          45,
+          0.34
+        ]
+      ]
+    },
+    {
+      "id": "S08",
+      "act": 2,
+      "size": "macro brass handle & splayed trembling fingers",
+      "set": "ClosetBedroom",
+      "key": 24,
+      "a": 384,
+      "b": 420,
+      "note": "لقطة ماكرو للمقبض النحاسي والشق الأسود بينما تمتد أصابع البطل المفرودة المرتجفة بالكم البرتقالي وتكاد تلمس المعدن.",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "step_wood_5",
+          2,
+          0.46
+        ],
+        [
+          "riser_horror_swell",
+          1,
+          0.62
+        ],
+        [
+          "clock_tick",
+          21,
+          0.34
+        ]
+      ]
+    },
+    {
+      "id": "S09",
+      "act": 3,
+      "size": "shock-cut macro smartphone ring & 03:07 clock",
+      "set": "ClosetBedroom",
+      "key": 24,
+      "a": 420,
+      "b": 469,
+      "note": "قطع صاعق نحو الكومودينو: تتوهج شاشة الجوال باللون الكهرماني الساطع بجانب ساعة 03:07 وتهتز مع إشعار «رقم غريب».",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "phone_ring_vibrate",
+          2,
+          0.94
+        ],
+        [
+          "clock_tick",
+          15,
+          0.34
+        ],
+        [
+          "clock_tick",
+          45,
+          0.34
+        ]
+      ]
+    },
+    {
+      "id": "S10",
+      "act": 3,
+      "size": "frantic turn & grab phone",
+      "set": "ClosetBedroom",
+      "key": 25,
+      "a": 469,
+      "b": 515,
+      "note": "يلتفت البطل مذهولاً من الخزانة ويسرع نحو الكومودينو ليخطف الجوال المضيء ويرد على المكالمة.",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "step_wood_4",
+          7,
+          0.62
+        ],
+        [
+          "phone_pickup_tap",
+          43,
+          0.85
+        ],
+        [
+          "clock_tick",
+          26,
+          0.34
+        ]
+      ]
+    },
+    {
+      "id": "S11",
+      "act": 3,
+      "size": "vertical split-lit face & phone grip",
+      "set": "ClosetBedroom",
+      "key": 27,
+      "a": 515,
+      "b": 567,
+      "note": "لقطة قريبة على البطل وهو يرفع الجوال لأذنه مضاءً بوهج كهرماني دافئ على خده مقابل ظلمة الغرفة الباردة.",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "phone_earpiece_crackle",
+          2,
+          0.72
+        ],
+        [
+          "clock_tick",
+          10,
+          0.34
+        ],
+        [
+          "clock_tick",
+          40,
+          0.34
+        ]
+      ]
+    },
+    {
+      "id": "S12",
+      "act": 3,
+      "size": "vertical cutaway past phone to looming closet",
+      "set": "ClosetBedroom",
+      "key": 48,
+      "a": 567,
+      "b": 656,
+      "note": "لقطة طولية خلف الجوال المضيء تكشف الخزانة المواربة خلف ظهر البطل، حيث يتوقف تكتكة الساعة وتنسحب الموسيقى تماماً.",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "clock_tick",
+          18,
+          0.34
+        ],
+        [
+          "clock_tick",
+          48,
+          0.34
+        ],
+        [
+          "clock_tick",
+          78,
+          0.34
+        ]
+      ]
+    },
+    {
+      "id": "S13",
+      "act": 3,
+      "size": "dead-silence tight warning close-up",
+      "set": "ClosetBedroom",
+      "key": 16,
+      "a": 656,
+      "b": 689,
+      "note": "في صمت موسيقي تام، تنبض موجات الصوت من سماعة الهاتف مع تحذير المتصل الحقيقي: «لا تفتح الخزانه...» وتتسع عينا البطل.",
+      "voicePerspective": "telephone-caller",
+      "sfx": []
+    },
+    {
+      "id": "S14",
+      "act": 3,
+      "size": "dutch-angle panic eyes extreme close-up",
+      "set": "ClosetBedroom",
+      "key": 17,
+      "a": 689,
+      "b": 724,
+      "note": "زاوية مائلة قاسية على عيني البطل المرتعبتين وسماعة الهاتف مع صرخة المتصل اليائسة: «أنا محبوس داخلها!».",
+      "voicePerspective": "telephone-caller",
+      "sfx": []
+    },
+    {
+      "id": "S15",
+      "act": 4,
+      "size": "wide vertical noir freeze standoff",
+      "set": "ClosetBedroom",
+      "key": 18,
+      "a": 724,
+      "b": 759,
+      "note": "في صمت مطبق، تظهر الغرفة كاملة في لقطة عمودية مشدودة: البطل متجمد تماماً يساراً والجوال ينخفض بيده أمام الخزانة يميناً.",
+      "voicePerspective": "narrator-clean",
+      "sfx": []
+    },
+    {
+      "id": "S16",
+      "act": 4,
+      "size": "vertical wardrobe self-opening + claw reveal",
+      "set": "ClosetBedroom",
+      "key": 35,
+      "a": 759,
+      "b": 813,
+      "note": "تتحرك ضلفة الخزانة الخشبية تلقائياً نحو الفتح مع صرير عميق، لتلتف أصابع ظل طويلة حول حافة الباب من الداخل.",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "closet_creak_wide",
+          3,
+          0.92
+        ]
+      ]
+    },
+    {
+      "id": "S17",
+      "act": 4,
+      "size": "low-angle dark void eyes focusing",
+      "set": "ClosetBedroom",
+      "key": 29,
+      "a": 813,
+      "b": 866,
+      "note": "زاوية منخفضة متوترة تحدق في جوف الخزانة المفتوح بين المعاطف المعلقة، حيث تتضح ملامح الكيان الشبحي وعيناه الشاحبتان.",
+      "voicePerspective": "narrator-clean",
+      "sfx": [
+        [
+          "closet_inner_presence",
+          3,
+          0.78
+        ]
+      ]
+    },
+    {
+      "id": "S18",
+      "act": 4,
+      "size": "horror entity twist & climax lunge",
+      "set": "ClosetBedroom",
+      "key": 50,
+      "a": 866,
+      "b": 960,
+      "note": "اندفاع مرعب داخل فتحة الخزانة مع تحول الصوت لكيان وحشي عميق «لا تصدقه... أنا اللي اتصلت عليك!» تتبعه فوراً هجمة مرعبة وضربة رعب صوتية وبصرية خاطفة قبل الإظلام التام.",
+      "voicePerspective": "closet-horror-entity",
+      "sfx": [
+        [
+          "closet_inner_presence",
+          0,
+          0.78
+        ],
+        [
+          "horror_sting_climax",
+          49,
+          0.99
+        ]
+      ]
+    }
+  ],
+  "fx": [
+    {
+      "f": 131,
+      "kind": "flash",
+      "color": "#9EC2F5",
+      "o": 0.14
+    },
+    {
+      "f": 420,
+      "kind": "flash",
+      "color": "#FFB85C",
+      "o": 0.34
+    },
+    {
+      "f": 420,
+      "kind": "shake",
+      "len": 8,
+      "amp": 7
+    },
+    {
+      "f": 689,
+      "kind": "danger",
+      "len": 35,
+      "o": 0.18
+    },
+    {
+      "f": 866,
+      "kind": "flash",
+      "color": "#85A8FF",
+      "o": 0.14
+    },
+    {
+      "f": 866,
+      "kind": "danger",
+      "len": 48,
+      "o": 0.24
+    },
+    {
+      "f": 915,
+      "kind": "flash",
+      "color": "#FF3B2F",
+      "o": 0.38
+    },
+    {
+      "f": 915,
+      "kind": "danger",
+      "len": 36,
+      "o": 0.46
+    },
+    {
+      "f": 915,
+      "kind": "shake",
+      "len": 14,
+      "amp": 12
+    }
+  ]
+}

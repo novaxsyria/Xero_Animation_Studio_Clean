@@ -1,0 +1,1715 @@
+{
+  "id": "KhizanatAlGhurfa",
+  "slug": "khizanat-al-ghurfa",
+  "title": "من داخل الخزانة",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "aspectRatio": "9:16",
+  "totalFrames": 960,
+  "durationSeconds": 32,
+  "artDirection": "A6 Amber Noir",
+  "sourceAudioPath": "public/assets/aistudio/tts-output_10__5aad1f8e.mp3",
+  "outroSfxTailSec": 1.25,
+  "audioMix": {
+    "voiceVol": 1,
+    "sfxVol": 0.88,
+    "musicVol": 0.65
+  },
+  "sfxCatalogDir": "studio/library/sfx/amberframe",
+  "exportFileName": "Khizanat_Al_Ghurfa_1080p.mp4",
+  "voiceSegments": [
+    {
+      "id": "vs_caller_phone",
+      "sceneId": "S13",
+      "speakerRole": "Unknown Trapped Caller",
+      "characterMood": "frantic-elder-urgent",
+      "preset": "telephone-caller",
+      "startSec": 21.9,
+      "endSec": 24.06,
+      "fadeSec": 0.024,
+      "pitchSemitones": -2.2,
+      "wetMix": 1
+    },
+    {
+      "id": "vs_closet_entity",
+      "sceneId": "S18",
+      "speakerRole": "Closet Horror Entity",
+      "characterMood": "chilling-demonic-deceptive",
+      "preset": "closet-horror-entity",
+      "startSec": 28.9,
+      "endSec": 30.52,
+      "fadeSec": 0.024,
+      "pitchSemitones": -3.8,
+      "wetMix": 1,
+      "followupSfxClip": "horror_sting_climax",
+      "followupSfxFrame": 915
+    }
+  ],
+  "subtitles": [
+    {
+      "a": 6,
+      "b": 44,
+      "text": "تخيل إنك نايم بغرفتك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 48,
+      "b": 127,
+      "text": "وفجأه تسمع صوت أحد يتنفس من داخل الخزانه",
+      "speaker": "narrator"
+    },
+    {
+      "a": 136,
+      "b": 162,
+      "text": "تفتح عيونك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 170,
+      "b": 233,
+      "text": "وتلاحظ إن باب الخزانه يتحرك بشويش",
+      "speaker": "narrator"
+    },
+    {
+      "a": 241,
+      "b": 269,
+      "text": "تقوم من سريرك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 276,
+      "b": 326,
+      "text": "وتمشي باتجاهها",
+      "speaker": "narrator"
+    },
+    {
+      "a": 334,
+      "b": 376,
+      "text": "وكل ما تقرب تسمع أحد يهمس باسمك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 392,
+      "b": 420,
+      "text": "تمد يدك للمقبض",
+      "speaker": "narrator"
+    },
+    {
+      "a": 421,
+      "b": 466,
+      "text": "وفجأه يرن جوالك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 472,
+      "b": 513,
+      "text": "رقم غريب يتصل عليك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 517,
+      "b": 566,
+      "text": "ترد وتسمع صوت رجال كبير",
+      "speaker": "narrator"
+    },
+    {
+      "a": 567,
+      "b": 654,
+      "text": "كأنه يتكلم من مسجل قديم يقول لك بصوت مرعوب",
+      "speaker": "narrator"
+    },
+    {
+      "a": 657,
+      "b": 688,
+      "text": "لا تفتح الخزانه",
+      "speaker": "caller"
+    },
+    {
+      "a": 690,
+      "b": 722,
+      "text": "أنا محبوس داخلها",
+      "speaker": "caller"
+    },
+    {
+      "a": 727,
+      "b": 757,
+      "text": "تتجمد بمكانك",
+      "speaker": "narrator"
+    },
+    {
+      "a": 761,
+      "b": 812,
+      "text": "وفجأه ينفتح باب الخزانه شوي",
+      "speaker": "narrator"
+    },
+    {
+      "a": 815,
+      "b": 865,
+      "text": "وتسمع صوت ثاني من داخلها يقول",
+      "speaker": "narrator"
+    },
+    {
+      "a": 867,
+      "b": 938,
+      "text": "لا تصدقه أنا اللي اتصلت عليك",
+      "speaker": "entity"
+    }
+  ],
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "act": 1,
+      "startFrame": 0,
+      "endFrame": 46,
+      "keyFrame": 24,
+      "shotType": "establishing",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "تخيل إنك نايم بغرفتك،",
+      "sceneDescription": "لقطة طولية تأسيسية لغرفة النوم ليلاً بأسلوب Amber Noir: أشعة القمر المائلة تعبر السجادة والأرضية والبطل نائم بهدوء في السرير يساراً.",
+      "camera": {
+        "motion": "slow-push",
+        "scaleFrom": 1,
+        "scaleTo": 1.05,
+        "focusX": 540,
+        "focusY": 940,
+        "handheldAmp": 1.1,
+        "motivation": "Establish calm vertical midnight bedroom geography before nocturnal intrusion."
+      },
+      "lighting": {
+        "key": "Volumetric cool moonlight shafts across tall portrait bedroom",
+        "rim": "Soft blue slate silhouette edge",
+        "veil": 0.54,
+        "description": "Peaceful cold moonlight contrast with gentle floating dust motes"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "asleep",
+          "action": "Chest rises gently with slow sleep breathing under duvet"
+        }
+      ],
+      "vfx": [
+        "Volumetric diagonal moonlight beam",
+        "Opening Arabic title card in upper negative space",
+        "Smooth fade from black"
+      ],
+      "sfx": [
+        {
+          "id": "s01_room",
+          "clip": "room_tone_bedroom",
+          "startFrame": 0,
+          "endFrame": 960,
+          "category": "diegetic",
+          "purpose": "Midnight bedroom ambience bed",
+          "spatialPan": 0,
+          "distance": 0.5,
+          "gain": 0.3,
+          "duckPriority": 0,
+          "visualTrigger": "Night bedroom atmosphere"
+        },
+        {
+          "id": "s01_tick_15",
+          "clip": "clock_tick",
+          "startFrame": 15,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        }
+      ],
+      "musicCue": {
+        "state": "underscore",
+        "note": "Multi-harmonic D-minor bowed drone enters under opening title"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "fade-from-black",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "moonlit-noir",
+        "propsState": {
+          "closetOpen": 0,
+          "phoneMode": "dim"
+        }
+      }
+    },
+    {
+      "sceneId": "S02",
+      "act": 1,
+      "startFrame": 46,
+      "endFrame": 131,
+      "keyFrame": 42,
+      "shotType": "insert",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "وفجأه تسمع صوت أحد يتنفس من داخل الخزانه.",
+      "sceneDescription": "قطع نحو الخزانة الشاهقة يميناً: يتصاعد بخار تنفس بارد من شق الباب المغلق مع اهتزاز خفيف للمقبض النحاسي.",
+      "camera": {
+        "motion": "slow-push",
+        "scaleFrom": 1.48,
+        "scaleTo": 1.72,
+        "focusX": 700,
+        "focusY": 855,
+        "handheldAmp": 1.6,
+        "motivation": "Draw viewer up into the towering wardrobe door seam as occluded breathing sounds from inside."
+      },
+      "lighting": {
+        "key": "Glint along brass handle & cold breath mist plume",
+        "rim": "Deep indigo shadow framing tall wardrobe wood",
+        "veil": 0.58,
+        "description": "Shadowy wardrobe seam catching cold moonlight reflection"
+      },
+      "characters": [
+        {
+          "id": "closet-entity",
+          "emotionalState": "hidden-breathing",
+          "action": "Muffled breathing rattles door latch subtly from inside"
+        }
+      ],
+      "vfx": [
+        "Cold breath mist plume from door slit (f49+)",
+        "Subtle wooden door rattle"
+      ],
+      "sfx": [
+        {
+          "id": "s02_breath",
+          "clip": "closet_breath",
+          "startFrame": 48,
+          "endFrame": 129,
+          "category": "diegetic",
+          "purpose": "Muffled raspy breathing inside closed wardrobe",
+          "spatialPan": 0.65,
+          "distance": 0.4,
+          "gain": 0.9,
+          "duckPriority": 2,
+          "visualTrigger": "Wardrobe seam breath mist & rattle"
+        },
+        {
+          "id": "s02_tick_45",
+          "clip": "clock_tick",
+          "startFrame": 45,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        },
+        {
+          "id": "s02_tick_75",
+          "clip": "clock_tick",
+          "startFrame": 75,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        },
+        {
+          "id": "s02_tick_105",
+          "clip": "clock_tick",
+          "startFrame": 105,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        }
+      ],
+      "musicCue": {
+        "state": "underscore",
+        "note": "Subtle low heartbeat enters underneath breathing"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "moonlit-noir",
+        "propsState": {
+          "closetOpen": 0,
+          "phoneMode": "dim"
+        }
+      }
+    },
+    {
+      "sceneId": "S03",
+      "act": 1,
+      "startFrame": 131,
+      "endFrame": 165,
+      "keyFrame": 17,
+      "shotType": "close-up",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "تفتح عيونك...",
+      "sceneDescription": "لقطة قريبة جداً لوجه البطل على الوسادة: تنفتح عيناه فجأة برعب صامت وتتجه حدقتاه للأعلى نحو الخزانة يميناً.",
+      "camera": {
+        "motion": "shock-cut",
+        "scaleFrom": 1.92,
+        "scaleTo": 1.78,
+        "focusX": 352,
+        "focusY": 842,
+        "handheldAmp": 2,
+        "motivation": "Instant visceral face close-up capturing the moment of waking shock."
+      },
+      "lighting": {
+        "key": "Sharp moonlight rim cutting across matte-black head & cream eyes",
+        "rim": "Cool #9EC2F5 outline highlight",
+        "veil": 0.52,
+        "description": "High-contrast eyes snapping open in dark portrait frame"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "waking-shock",
+          "action": "Eyelids snap open at f136, pupils lock right toward closet with clavicle jolt"
+        }
+      ],
+      "vfx": [
+        "Eye-snap dilation & moonlight glint",
+        "Kinetic wake jolt echo"
+      ],
+      "sfx": [
+        {
+          "id": "s03_gasp",
+          "clip": "bed_rustle",
+          "startFrame": 135,
+          "category": "diegetic",
+          "purpose": "Sharp pillow shift as head jolts awake",
+          "spatialPan": -0.5,
+          "distance": 0.25,
+          "gain": 0.45,
+          "duckPriority": 1,
+          "visualTrigger": "Eyes snap open on pillow"
+        },
+        {
+          "id": "s03_tick_135",
+          "clip": "clock_tick",
+          "startFrame": 135,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        }
+      ],
+      "musicCue": {
+        "state": "underscore",
+        "note": "Tension chord tightens on eye snap"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "shock-cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "moonlit-noir",
+        "propsState": {
+          "closetOpen": 0,
+          "phoneMode": "dim"
+        }
+      }
+    },
+    {
+      "sceneId": "S04",
+      "act": 1,
+      "startFrame": 165,
+      "endFrame": 237,
+      "keyFrame": 37,
+      "shotType": "reaction",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "وتلاحظ إن باب الخزانه يتحرك بشويش.",
+      "sceneDescription": "يرفع البطل جذعه بحذر من السرير بينما تنحرف الكاميرا نحو الخزانة يميناً حيث تنفتح ضلفتها تلقائياً بمقدار شق ضيق.",
+      "camera": {
+        "motion": "rack-pan",
+        "scaleFrom": 1.46,
+        "scaleTo": 1.15,
+        "focusX": 430,
+        "focusY": 870,
+        "handheldAmp": 1.5,
+        "motivation": "Shift attention along protagonist eyeline from bed across room to creeping wardrobe door."
+      },
+      "lighting": {
+        "key": "Cold night beam bridging bed and wardrobe",
+        "rim": "Orange collar & right hood edge lit by moonlight",
+        "veil": 0.54,
+        "description": "Directional tension connecting protagonist gaze to wardrobe slit"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "startled -> wary",
+          "action": "Sits upright slowly with shoulder tension staring toward wardrobe"
+        }
+      ],
+      "vfx": [
+        "Articulated hinged wardrobe door swing (0 -> 0.085)",
+        "Cold mist seeping wider"
+      ],
+      "sfx": [
+        {
+          "id": "s04_creak",
+          "clip": "closet_creak_slow",
+          "startFrame": 172,
+          "endFrame": 234,
+          "category": "diegetic",
+          "purpose": "Dry wooden hinge creak as door inches open",
+          "spatialPan": 0.62,
+          "distance": 0.42,
+          "gain": 0.78,
+          "duckPriority": 2,
+          "visualTrigger": "Wardrobe door pivots ajar"
+        },
+        {
+          "id": "s04_tick_165",
+          "clip": "clock_tick",
+          "startFrame": 165,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        },
+        {
+          "id": "s04_tick_195",
+          "clip": "clock_tick",
+          "startFrame": 195,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        },
+        {
+          "id": "s04_tick_225",
+          "clip": "clock_tick",
+          "startFrame": 225,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        }
+      ],
+      "musicCue": {
+        "state": "underscore",
+        "note": "Bowed bass sustains beneath wooden hinge creak"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "moonlit-noir",
+        "propsState": {
+          "closetOpen": 0.085,
+          "phoneMode": "dim"
+        }
+      }
+    },
+    {
+      "sceneId": "S05",
+      "act": 2,
+      "startFrame": 237,
+      "endFrame": 272,
+      "keyFrame": 19,
+      "shotType": "medium",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "تقوم من سريرك،",
+      "sceneDescription": "لقطة متوسطة لحافة السرير بينما يزيح البطل اللحاف وينهض واقفاً على الأرضية الخشبية مستعداً للتقدم.",
+      "camera": {
+        "motion": "slow-push",
+        "scaleFrom": 1.38,
+        "scaleTo": 1.28,
+        "focusX": 430,
+        "focusY": 960,
+        "handheldAmp": 1.4,
+        "motivation": "Ground physical weight shifting from mattress onto floorboards."
+      },
+      "lighting": {
+        "key": "Moonlight puddle catching feet on floorboards",
+        "rim": "Warm orange hoodie contrast against dark bedding",
+        "veil": 0.52,
+        "description": "Sharp silhouette separation as character stands"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "cautious determination",
+          "action": "Swings legs off mattress with natural hip drop onto wood planks"
+        }
+      ],
+      "vfx": [
+        "Cotton duvet fold drop",
+        "Floor contact shadow lock"
+      ],
+      "sfx": [
+        {
+          "id": "s05_rustle",
+          "clip": "bed_rustle",
+          "startFrame": 238,
+          "endFrame": 266,
+          "category": "diegetic",
+          "purpose": "Duvet rustle & weight shift off bed",
+          "spatialPan": -0.45,
+          "distance": 0.35,
+          "gain": 0.7,
+          "duckPriority": 1,
+          "visualTrigger": "Throws duvet back and stands"
+        },
+        {
+          "id": "s05_tick_255",
+          "clip": "clock_tick",
+          "startFrame": 255,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        }
+      ],
+      "musicCue": {
+        "state": "underscore",
+        "note": "Heartbeat pulse quickens slightly as hero stands"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "moonlit-noir",
+        "propsState": {
+          "closetOpen": 0.085,
+          "phoneMode": "dim"
+        }
+      }
+    },
+    {
+      "sceneId": "S06",
+      "act": 2,
+      "startFrame": 272,
+      "endFrame": 330,
+      "keyFrame": 28,
+      "shotType": "tracking",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "وتمشي باتجاهها،",
+      "sceneDescription": "كاميرا متتبعة من مستوى منخفض تتابع خطوات البطل الحذرة عبر حزمة ضوء القمر والسجادة نحو ظل الخزانة.",
+      "camera": {
+        "motion": "track",
+        "scaleFrom": 1.14,
+        "scaleTo": 1.26,
+        "focusX": 525,
+        "focusY": 930,
+        "handheldAmp": 1.8,
+        "motivation": "Physically track cautious footsteps with double-bounce weight transfer across bedroom."
+      },
+      "lighting": {
+        "key": "Moonlight shaft bisecting woven rug & floorboards",
+        "rim": "Cool rim switching cleanly as body enters wardrobe shadow",
+        "veil": 0.54,
+        "description": "Character crosses illuminated dust beam into deeper shadow"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "tense resolve",
+          "action": "Measured stride with double-bounce weight & synced floorboard dust impacts"
+        }
+      ],
+      "vfx": [
+        "Double-bounce grounded walk cycle",
+        "Dust scuff puffs on wood impacts (f276, f296, f317)"
+      ],
+      "sfx": [
+        {
+          "id": "s06_step1",
+          "clip": "step_wood_1",
+          "startFrame": 276,
+          "category": "diegetic",
+          "purpose": "Footstep 1 on floorboard",
+          "spatialPan": -0.25,
+          "distance": 0.38,
+          "surface": "wood",
+          "gain": 0.72,
+          "duckPriority": 2,
+          "visualTrigger": "Left heel strike"
+        },
+        {
+          "id": "s06_step2",
+          "clip": "step_wood_2",
+          "startFrame": 296,
+          "category": "diegetic",
+          "purpose": "Footstep 2 in moonlight",
+          "spatialPan": -0.02,
+          "distance": 0.35,
+          "surface": "wood",
+          "gain": 0.68,
+          "duckPriority": 2,
+          "visualTrigger": "Right heel strike"
+        },
+        {
+          "id": "s06_step3",
+          "clip": "step_wood_3",
+          "startFrame": 317,
+          "category": "diegetic",
+          "purpose": "Footstep 3 approaching wardrobe",
+          "spatialPan": 0.18,
+          "distance": 0.32,
+          "surface": "wood",
+          "gain": 0.65,
+          "duckPriority": 2,
+          "visualTrigger": "Left heel strike"
+        },
+        {
+          "id": "s06_tick_285",
+          "clip": "clock_tick",
+          "startFrame": 285,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        },
+        {
+          "id": "s06_tick_315",
+          "clip": "clock_tick",
+          "startFrame": 315,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        }
+      ],
+      "musicCue": {
+        "state": "underscore",
+        "note": "Sparse low pulse keeps footsteps physically audible"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "center",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "moonlit-noir",
+        "propsState": {
+          "closetOpen": 0.085,
+          "phoneMode": "dim"
+        }
+      }
+    },
+    {
+      "sceneId": "S07",
+      "act": 2,
+      "startFrame": 330,
+      "endFrame": 384,
+      "keyFrame": 30,
+      "shotType": "over-shoulder",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "وكل ما تقرب... تسمع أحد يهمس باسمك.",
+      "sceneDescription": "من خلف الكتف أثناء الاقتراب: يتوقف البطل فجأة وموجات همس باردة تخرج من شق الخزانة المظلم لتضرب أذنه.",
+      "camera": {
+        "motion": "slow-push",
+        "scaleFrom": 1.38,
+        "scaleTo": 1.62,
+        "focusX": 645,
+        "focusY": 865,
+        "handheldAmp": 2,
+        "dutchDeg": 1.2,
+        "motivation": "Compress vertical space between ear and wardrobe crack as the eerie whisper calls his name."
+      },
+      "lighting": {
+        "key": "Dark towering wardrobe shadow + pale cyan whisper arcs",
+        "rim": "Cold seam glint along right cheek",
+        "veil": 0.6,
+        "description": "Claustrophobic shadow dominance around protagonist profile"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "dread freeze",
+          "action": "Plants final hesitant step at f342, shoulders tense & recoils on whisper"
+        }
+      ],
+      "vfx": [
+        "Whisper air wisps escaping slit (f339+)",
+        "Translucent acoustic wave arcs"
+      ],
+      "sfx": [
+        {
+          "id": "s07_step4",
+          "clip": "step_wood_4",
+          "startFrame": 336,
+          "category": "diegetic",
+          "purpose": "Final hesitant footstep stop",
+          "spatialPan": 0.34,
+          "distance": 0.28,
+          "surface": "wood",
+          "gain": 0.56,
+          "duckPriority": 2,
+          "visualTrigger": "Character plants feet"
+        },
+        {
+          "id": "s07_whisper",
+          "clip": "closet_whisper_air",
+          "startFrame": 342,
+          "endFrame": 382,
+          "category": "diegetic",
+          "purpose": "Eerie close whisper air brushing ear",
+          "spatialPan": 0.6,
+          "distance": 0.18,
+          "gain": 0.9,
+          "duckPriority": 2,
+          "visualTrigger": "Whisper wave rings exit crack"
+        },
+        {
+          "id": "s07_tick_345",
+          "clip": "clock_tick",
+          "startFrame": 345,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        },
+        {
+          "id": "s07_tick_375",
+          "clip": "clock_tick",
+          "startFrame": 375,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        }
+      ],
+      "musicCue": {
+        "state": "tension-rise",
+        "note": "Sub riser & dissonant strings swell under whisper pause"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "right",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "deep-shadow-noir",
+        "propsState": {
+          "closetOpen": 0.085,
+          "phoneMode": "dim"
+        }
+      }
+    },
+    {
+      "sceneId": "S08",
+      "act": 2,
+      "startFrame": 384,
+      "endFrame": 420,
+      "keyFrame": 24,
+      "shotType": "insert",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "تمد يدك للمقبض،",
+      "sceneDescription": "لقطة ماكرو للمقبض النحاسي والشق الأسود بينما تمتد أصابع البطل المفرودة المرتجفة بالكم البرتقالي وتكاد تلمس المعدن.",
+      "camera": {
+        "motion": "slow-push",
+        "scaleFrom": 1.9,
+        "scaleTo": 2.15,
+        "focusX": 608,
+        "focusY": 890,
+        "handheldAmp": 2.4,
+        "dutchDeg": 1.5,
+        "motivation": "Magnify tense splayed fingertips inches from the brass handle right before interruption."
+      },
+      "lighting": {
+        "key": "Warm metallic glint on brass handle",
+        "rim": "Crisp amber edge along sleeve cuff & fingers",
+        "veil": 0.64,
+        "description": "Knife-edge tension between matte-black splayed hand and lit brass"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "petrified anticipation",
+          "action": "Arm extends with splayed tense fingers trembling millimeters short of latch"
+        }
+      ],
+      "vfx": [
+        "Splayed trembling hand micro-tremor",
+        "Brass handle specular highlight"
+      ],
+      "sfx": [
+        {
+          "id": "s08_step5",
+          "clip": "step_wood_5",
+          "startFrame": 386,
+          "category": "diegetic",
+          "purpose": "Floorboard weight creak leaning toward wardrobe",
+          "spatialPan": 0.42,
+          "distance": 0.24,
+          "surface": "wood",
+          "gain": 0.46,
+          "duckPriority": 1,
+          "visualTrigger": "Body leans toward brass handle"
+        },
+        {
+          "id": "s08_riser",
+          "clip": "riser_horror_swell",
+          "startFrame": 385,
+          "endFrame": 420,
+          "category": "non-diegetic",
+          "purpose": "Ascending tension swell snapped off by phone ring",
+          "spatialPan": 0.15,
+          "distance": 0.2,
+          "gain": 0.62,
+          "duckPriority": 1,
+          "visualTrigger": "Fingers inches from handle"
+        },
+        {
+          "id": "s08_tick_405",
+          "clip": "clock_tick",
+          "startFrame": 405,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        }
+      ],
+      "musicCue": {
+        "state": "tension-rise",
+        "note": "Tension peak abruptly cut off by nightstand smartphone ring"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "right",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "tight-amber-rim",
+        "propsState": {
+          "closetOpen": 0.085,
+          "phoneMode": "dim"
+        }
+      }
+    },
+    {
+      "sceneId": "S09",
+      "act": 3,
+      "startFrame": 420,
+      "endFrame": 469,
+      "keyFrame": 24,
+      "shotType": "insert",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "وفجأه يرن جوالك!",
+      "sceneDescription": "قطع صاعق نحو الكومودينو: تتوهج شاشة الجوال باللون الكهرماني الساطع بجانب ساعة 03:07 وتهتز مع إشعار «رقم غريب».",
+      "camera": {
+        "motion": "shock-cut",
+        "scaleFrom": 2.25,
+        "scaleTo": 1.92,
+        "focusX": 540,
+        "focusY": 985,
+        "spring": true,
+        "handheldAmp": 2.6,
+        "motivation": "Deliver instant vertical whip-cut jolt matching the sudden phone ring."
+      },
+      "lighting": {
+        "key": "Blazing #FF8A3D amber screen flare spilling across wood nightstand",
+        "rim": "Warm under-lighting piercing blue darkness",
+        "veil": 0.46,
+        "description": "Violent warm-amber illumination flare"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "jolted",
+          "action": "Spins sharply left with kinetic blur echo away from wardrobe"
+        }
+      ],
+      "vfx": [
+        "Pulsing caller ID rings («رقم غريب»)",
+        "Wood buzz vibration tremor",
+        "Amber impact flash & kinetic echo"
+      ],
+      "sfx": [
+        {
+          "id": "s09_ring",
+          "clip": "phone_ring_vibrate",
+          "startFrame": 422,
+          "endFrame": 511,
+          "category": "diegetic",
+          "purpose": "Smartphone sudden ring + wood nightstand buzz",
+          "spatialPan": -0.58,
+          "distance": 0.16,
+          "gain": 0.94,
+          "duckPriority": 3,
+          "visualTrigger": "Nightstand screen ignites amber"
+        },
+        {
+          "id": "s09_tick_435",
+          "clip": "clock_tick",
+          "startFrame": 435,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        },
+        {
+          "id": "s09_tick_465",
+          "clip": "clock_tick",
+          "startFrame": 465,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        }
+      ],
+      "musicCue": {
+        "state": "underscore",
+        "note": "Riser snaps cleanly into restless low pulse"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "shock-cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "right",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "amber-phone-flare",
+        "propsState": {
+          "closetOpen": 0.085,
+          "phoneMode": "incoming"
+        }
+      }
+    },
+    {
+      "sceneId": "S10",
+      "act": 3,
+      "startFrame": 469,
+      "endFrame": 515,
+      "keyFrame": 25,
+      "shotType": "medium",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "رقم غريب يتصل عليك...",
+      "sceneDescription": "يلتفت البطل مذهولاً من الخزانة ويسرع نحو الكومودينو ليخطف الجوال المضيء ويرد على المكالمة.",
+      "camera": {
+        "motion": "track",
+        "scaleFrom": 1.32,
+        "scaleTo": 1.5,
+        "focusX": 525,
+        "focusY": 945,
+        "handheldAmp": 2.1,
+        "motivation": "Follow frantic scramble across vertical frame to bedside nightstand."
+      },
+      "lighting": {
+        "key": "Strong #FF8A3D under-lit phone spill on hero torso",
+        "rim": "Warm amber hoodie silhouette highlight",
+        "veil": 0.48,
+        "description": "Dynamic warm bounce light washing over bedside floor"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "panicked urgency",
+          "action": "Strides left toward nightstand and snatches phone at f512"
+        }
+      ],
+      "vfx": [
+        "Amber screen bounce across room",
+        "Touch tap answer transition at f512"
+      ],
+      "sfx": [
+        {
+          "id": "s10_step",
+          "clip": "step_wood_4",
+          "startFrame": 476,
+          "category": "diegetic",
+          "purpose": "Quick turn footstep back to nightstand",
+          "spatialPan": -0.25,
+          "distance": 0.25,
+          "surface": "wood",
+          "gain": 0.62,
+          "duckPriority": 2,
+          "visualTrigger": "Fast pivot step left"
+        },
+        {
+          "id": "s10_pickup",
+          "clip": "phone_pickup_tap",
+          "startFrame": 512,
+          "category": "diegetic",
+          "purpose": "Tap to answer call & silence ring",
+          "spatialPan": -0.32,
+          "distance": 0.14,
+          "gain": 0.85,
+          "duckPriority": 2,
+          "visualTrigger": "Finger answers phone"
+        },
+        {
+          "id": "s10_tick_495",
+          "clip": "clock_tick",
+          "startFrame": 495,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        }
+      ],
+      "musicCue": {
+        "state": "underscore",
+        "note": "Tense heartbeat races toward answer click"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "amber-phone-flare",
+        "propsState": {
+          "closetOpen": 0.085,
+          "phoneMode": "incoming"
+        }
+      }
+    },
+    {
+      "sceneId": "S11",
+      "act": 3,
+      "startFrame": 515,
+      "endFrame": 567,
+      "keyFrame": 27,
+      "shotType": "close-up",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "ترد، وتسمع صوت رجال كبير،",
+      "sceneDescription": "لقطة قريبة على البطل وهو يرفع الجوال لأذنه مضاءً بوهج كهرماني دافئ على خده مقابل ظلمة الغرفة الباردة.",
+      "camera": {
+        "motion": "slow-push",
+        "scaleFrom": 1.62,
+        "scaleTo": 1.78,
+        "focusX": 522,
+        "focusY": 855,
+        "handheldAmp": 1.7,
+        "motivation": "Lock onto hero’s anxious reaction as the mysterious voice starts speaking."
+      },
+      "lighting": {
+        "key": "Warm amber phone glow illuminating left cheek (#FFB85C)",
+        "rim": "Cold midnight wardrobe shadow behind right shoulder",
+        "veil": 0.56,
+        "description": "Split warm-left / cold-right Noir contrast"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "anxious focus",
+          "action": "Grips glowing smartphone tightly against ear with raised clavicle tension"
+        }
+      ],
+      "vfx": [
+        "Subtle earpiece glow waves"
+      ],
+      "sfx": [
+        {
+          "id": "s11_static",
+          "clip": "phone_earpiece_crackle",
+          "startFrame": 517,
+          "endFrame": 722,
+          "category": "diegetic",
+          "purpose": "Real telephone coil line static floor",
+          "spatialPan": -0.24,
+          "distance": 0.08,
+          "gain": 0.72,
+          "duckPriority": 1,
+          "visualTrigger": "Phone held tight to ear"
+        },
+        {
+          "id": "s11_tick_525",
+          "clip": "clock_tick",
+          "startFrame": 525,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        },
+        {
+          "id": "s11_tick_555",
+          "clip": "clock_tick",
+          "startFrame": 555,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        }
+      ],
+      "musicCue": {
+        "state": "underscore",
+        "note": "Low strings thin out to clear voice clarity"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "split-amber-shadow",
+        "propsState": {
+          "closetOpen": 0.085,
+          "phoneMode": "connected"
+        }
+      }
+    },
+    {
+      "sceneId": "S12",
+      "act": 3,
+      "startFrame": 567,
+      "endFrame": 656,
+      "keyFrame": 48,
+      "shotType": "over-shoulder",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "كأنه يتكلم من مسجل قديم. يقول لك بصوت مرعوب:",
+      "sceneDescription": "لقطة طولية خلف الجوال المضيء تكشف الخزانة المواربة خلف ظهر البطل، حيث يتوقف تكتكة الساعة وتنسحب الموسيقى تماماً.",
+      "camera": {
+        "motion": "slow-push",
+        "scaleFrom": 1.24,
+        "scaleTo": 1.38,
+        "focusX": 605,
+        "focusY": 870,
+        "handheldAmp": 1.9,
+        "dutchDeg": -1.1,
+        "motivation": "Frame both glowing receiver and looming open wardrobe behind protagonist’s back."
+      },
+      "lighting": {
+        "key": "Cold shadow looming right behind warm phone glow",
+        "rim": "Dual amber/midnight split across hoodie",
+        "veil": 0.6,
+        "description": "Foreboding vertical depth behind unsuspecting shoulder"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "growing dread",
+          "action": "Stands tense beside bed unaware of mist curling behind him"
+        }
+      ],
+      "vfx": [
+        "Background wardrobe breath mist shimmer",
+        "Clock tick & musical drop-out at f654"
+      ],
+      "sfx": [
+        {
+          "id": "s12_tick_585",
+          "clip": "clock_tick",
+          "startFrame": 585,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        },
+        {
+          "id": "s12_tick_615",
+          "clip": "clock_tick",
+          "startFrame": 615,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        },
+        {
+          "id": "s12_tick_645",
+          "clip": "clock_tick",
+          "startFrame": 645,
+          "category": "diegetic",
+          "purpose": "Quiet midnight digital/quartz nightstand clock tick (stops abruptly during intentional silence)",
+          "spatialPan": -0.35,
+          "distance": 0.45,
+          "gain": 0.34,
+          "duckPriority": 0,
+          "visualTrigger": "03:07 nightstand clock pulse"
+        }
+      ],
+      "musicCue": {
+        "state": "intentional-silence",
+        "note": "Score and clock ticks drop cleanly to dead silence at f654"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "split-amber-shadow",
+        "propsState": {
+          "closetOpen": 0.085,
+          "phoneMode": "connected"
+        }
+      }
+    },
+    {
+      "sceneId": "S13",
+      "act": 3,
+      "startFrame": 656,
+      "endFrame": 689,
+      "keyFrame": 16,
+      "shotType": "close-up",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "لا تفتح الخزانه...",
+      "sceneDescription": "في صمت موسيقي تام، تنبض موجات الصوت من سماعة الهاتف مع تحذير المتصل الحقيقي: «لا تفتح الخزانه...» وتتسع عينا البطل.",
+      "camera": {
+        "motion": "slow-push",
+        "scaleFrom": 2.02,
+        "scaleTo": 2.22,
+        "focusX": 540,
+        "focusY": 842,
+        "handheldAmp": 2.3,
+        "dutchDeg": -1.4,
+        "motivation": "Pin audience into the telephone warning in dead silence."
+      },
+      "lighting": {
+        "key": "Pulsing amber phone light against pitch-dark room",
+        "rim": "Crisp amber cheek highlight",
+        "veil": 0.6,
+        "description": "Dead-silence spotlight on telephone receiver & wide eyes"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "horrified realization",
+          "action": "Pupils dilate wide and gaze darts right as caller voice crackles"
+        }
+      ],
+      "vfx": [
+        "Pulsing earpiece waveform arcs synced to telephone-caller voice"
+      ],
+      "sfx": [],
+      "musicCue": {
+        "state": "intentional-silence",
+        "note": "Dead silence — 100% wet telephone-caller warning commands full attention"
+      },
+      "voicePerspective": "telephone-caller",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "split-amber-shadow",
+        "propsState": {
+          "closetOpen": 0.085,
+          "phoneMode": "connected"
+        }
+      }
+    },
+    {
+      "sceneId": "S14",
+      "act": 3,
+      "startFrame": 689,
+      "endFrame": 724,
+      "keyFrame": 17,
+      "shotType": "extreme-close-up",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "أنا محبوس داخلها!",
+      "sceneDescription": "زاوية مائلة قاسية على عيني البطل المرتعبتين وسماعة الهاتف مع صرخة المتصل اليائسة: «أنا محبوس داخلها!».",
+      "camera": {
+        "motion": "slow-push",
+        "scaleFrom": 2.26,
+        "scaleTo": 2.5,
+        "focusX": 544,
+        "focusY": 836,
+        "handheldAmp": 2.8,
+        "dutchDeg": -2.6,
+        "motivation": "Escalate psychological vertigo with canted vertical framing as the caller reveals he is trapped inside."
+      },
+      "lighting": {
+        "key": "Flickering amber earpiece flare + deep black shadow",
+        "rim": "Sweat & eye-glint specular pop",
+        "veil": 0.64,
+        "description": "Extreme Dutch-angle noir panic"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "paralyzing terror",
+          "action": "Freezes breathing with trembling grip clamping glowing phone"
+        }
+      ],
+      "vfx": [
+        "High-intensity telephone waveform sparks",
+        "Canted Dutch roll (-2.6deg)"
+      ],
+      "sfx": [],
+      "musicCue": {
+        "state": "intentional-silence",
+        "note": "Dead silence intensifies every syllable of caller confession"
+      },
+      "voicePerspective": "telephone-caller",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "split-amber-shadow",
+        "propsState": {
+          "closetOpen": 0.085,
+          "phoneMode": "connected"
+        }
+      }
+    },
+    {
+      "sceneId": "S15",
+      "act": 4,
+      "startFrame": 724,
+      "endFrame": 759,
+      "keyFrame": 18,
+      "shotType": "wide",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "تتجمد بمكانك...",
+      "sceneDescription": "في صمت مطبق، تظهر الغرفة كاملة في لقطة عمودية مشدودة: البطل متجمد تماماً يساراً والجوال ينخفض بيده أمام الخزانة يميناً.",
+      "camera": {
+        "motion": "static",
+        "scaleFrom": 1.04,
+        "scaleTo": 1.07,
+        "focusX": 540,
+        "focusY": 940,
+        "handheldAmp": 0.6,
+        "motivation": "Freeze the entire tall bedroom geography in one breathless standoff frame before the door swings."
+      },
+      "lighting": {
+        "key": "Cold motionless moonlight across center floor & rug",
+        "rim": "Dim ember glow from lowered smartphone",
+        "veil": 0.62,
+        "description": "Unbearable spatial stillness between hero and wardrobe"
+      },
+      "characters": [
+        {
+          "id": "protagonist",
+          "emotionalState": "paralyzed",
+          "action": "Slowly lowers phone below ear, frozen facing right"
+        }
+      ],
+      "vfx": [
+        "Dead stillness across portrait bedroom"
+      ],
+      "sfx": [],
+      "musicCue": {
+        "state": "intentional-silence",
+        "note": "Complete musical silence holds steady"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "noir-freeze",
+        "propsState": {
+          "closetOpen": 0.085,
+          "phoneMode": "connected"
+        }
+      }
+    },
+    {
+      "sceneId": "S16",
+      "act": 4,
+      "startFrame": 759,
+      "endFrame": 813,
+      "keyFrame": 35,
+      "shotType": "reveal",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "وفجأه، ينفتح باب الخزانه شوي...",
+      "sceneDescription": "تتحرك ضلفة الخزانة الخشبية تلقائياً نحو الفتح مع صرير عميق، لتلتف أصابع ظل طويلة حول حافة الباب من الداخل.",
+      "camera": {
+        "motion": "slow-push",
+        "scaleFrom": 1.56,
+        "scaleTo": 1.78,
+        "focusX": 668,
+        "focusY": 855,
+        "handheldAmp": 1.8,
+        "dutchDeg": 1.4,
+        "motivation": "Focus tightly on the self-opening wooden door and emerging shadow claws."
+      },
+      "lighting": {
+        "key": "Cold rim catching clawed fingers gripping door frame",
+        "rim": "Moonlight grazing swinging wooden panel",
+        "veil": 0.64,
+        "description": "Deepening darkness pouring out of widening door seam"
+      },
+      "characters": [
+        {
+          "id": "closet-entity",
+          "emotionalState": "emerging",
+          "action": "Pushes wardrobe door wider (0.085 -> 0.50) and curls shadow fingers around wood edge"
+        }
+      ],
+      "vfx": [
+        "Articulated door swing (0.085 -> 0.50)",
+        "ShadowEntity claw grip emerging (f778+)"
+      ],
+      "sfx": [
+        {
+          "id": "s16_creak",
+          "clip": "closet_creak_wide",
+          "startFrame": 762,
+          "endFrame": 812,
+          "category": "diegetic",
+          "purpose": "Deep wooden wardrobe groan in dead silence",
+          "spatialPan": 0.68,
+          "distance": 0.3,
+          "gain": 0.92,
+          "duckPriority": 2,
+          "visualTrigger": "Door swings wider + claws grip wood"
+        }
+      ],
+      "musicCue": {
+        "state": "intentional-silence",
+        "note": "Dead silence makes wooden door groan visceral"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "noir-freeze",
+        "propsState": {
+          "closetOpen": 0.5,
+          "phoneMode": "connected"
+        }
+      }
+    },
+    {
+      "sceneId": "S17",
+      "act": 4,
+      "startFrame": 813,
+      "endFrame": 866,
+      "keyFrame": 29,
+      "shotType": "pov",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "وتسمع صوت ثاني من داخلها يقول:",
+      "sceneDescription": "زاوية منخفضة متوترة تحدق في جوف الخزانة المفتوح بين المعاطف المعلقة، حيث تتضح ملامح الكيان الشبحي وعيناه الشاحبتان.",
+      "camera": {
+        "motion": "slow-push",
+        "scaleFrom": 1.82,
+        "scaleTo": 2.02,
+        "focusX": 662,
+        "focusY": 815,
+        "handheldAmp": 2.1,
+        "dutchDeg": 2,
+        "motivation": "Shift POV straight up toward the towering entity lurking inside the closet void."
+      },
+      "lighting": {
+        "key": "Pale staring eyes (#EAE3D2) piercing pitch-black interior (#030408)",
+        "rim": "Faint cold steel light on coat silhouettes",
+        "veil": 0.68,
+        "description": "Claustrophobic black cavity reveals predatory eyes"
+      },
+      "characters": [
+        {
+          "id": "closet-entity",
+          "emotionalState": "menacing-focus",
+          "action": "Leans forward silently between hanging coats locking pinpoint gaze"
+        }
+      ],
+      "vfx": [
+        "ShadowEntity silhouette reveal inside coats",
+        "Subtle breath mist curl"
+      ],
+      "sfx": [
+        {
+          "id": "s17_presence",
+          "clip": "closet_inner_presence",
+          "startFrame": 816,
+          "endFrame": 866,
+          "category": "diegetic",
+          "purpose": "Hollow dark closet cavity pressure rising",
+          "spatialPan": 0.38,
+          "distance": 0.18,
+          "gain": 0.78,
+          "duckPriority": 1,
+          "visualTrigger": "Entity eyes lock inside void"
+        }
+      ],
+      "musicCue": {
+        "state": "intentional-silence",
+        "note": "Silence stretches to breaking point right before entity speaks"
+      },
+      "voicePerspective": "narrator-clean",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "pitch-noir-twist",
+        "propsState": {
+          "closetOpen": 0.5,
+          "phoneMode": "connected"
+        }
+      }
+    },
+    {
+      "sceneId": "S18",
+      "act": 4,
+      "startFrame": 866,
+      "endFrame": 960,
+      "keyFrame": 50,
+      "shotType": "extreme-close-up",
+      "set": "ClosetBedroom",
+      "look": "amberNoir",
+      "narrationSegment": "لا تصدقه... أنا اللي اتصلت عليك!",
+      "sceneDescription": "اندفاع مرعب داخل فتحة الخزانة مع تحول الصوت لكيان وحشي عميق «لا تصدقه... أنا اللي اتصلت عليك!» تتبعه فوراً هجمة مرعبة وضربة رعب صوتية وبصرية خاطفة قبل الإظلام التام.",
+      "camera": {
+        "motion": "slow-push",
+        "scaleFrom": 2.04,
+        "scaleTo": 2.75,
+        "focusX": 660,
+        "focusY": 800,
+        "handheldAmp": 3,
+        "dutchDeg": 3.2,
+        "motivation": "Drive straight into the ShadowEntity eyes and jaws for the horror twist and post-line sting lunge."
+      },
+      "lighting": {
+        "key": "Crimson danger surge + stark crimson-haloed eyes in pure black cavity",
+        "rim": "Strobe crimson/white horror flash before pitch-black cut",
+        "veil": 0.72,
+        "description": "Peak horror contrast exploding at f915 right after final word"
+      },
+      "characters": [
+        {
+          "id": "closet-entity",
+          "emotionalState": "terrifying-predatory-lunge",
+          "action": "Delivers closet-horror-entity twist (f867–f915), then lunges violently forward at f915"
+        }
+      ],
+      "vfx": [
+        "ShadowEntity violent lunge + crimson eyes + jaw surge (f915+)",
+        "Crimson danger edge glow + shock flash & shake",
+        "Synced Arabic horror subtitle + smash cut to black"
+      ],
+      "sfx": [
+        {
+          "id": "s18_presence",
+          "clip": "closet_inner_presence",
+          "startFrame": 866,
+          "endFrame": 916,
+          "category": "diegetic",
+          "purpose": "Deep closet cavity resonance under horror entity speech",
+          "spatialPan": 0.2,
+          "distance": 0.12,
+          "gain": 0.78,
+          "duckPriority": 1,
+          "visualTrigger": "Open closet entity close-up"
+        },
+        {
+          "id": "s18_horror_sting",
+          "clip": "horror_sting_climax",
+          "startFrame": 915,
+          "endFrame": 960,
+          "category": "non-diegetic",
+          "purpose": "Visceral post-dialogue horror shock sting (sub-drop + dissonant screech)",
+          "spatialPan": 0,
+          "distance": 0.05,
+          "gain": 0.99,
+          "duckPriority": 3,
+          "visualTrigger": "Entity lunges forward right after \"عليك!\""
+        }
+      ],
+      "musicCue": {
+        "state": "sting",
+        "note": "Bowed horror dissonance enters at f866 and detonates at f915 with sub-drop sting"
+      },
+      "voicePerspective": "closet-horror-entity",
+      "transitionIn": "cut",
+      "continuity": {
+        "location": "bedroom",
+        "protagonistSide": "left",
+        "closetSide": "right",
+        "bedSide": "left",
+        "lightingMood": "pitch-noir-twist",
+        "propsState": {
+          "closetOpen": 0.68,
+          "phoneMode": "connected"
+        }
+      }
+    }
+  ]
+}
